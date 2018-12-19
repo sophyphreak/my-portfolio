@@ -12,3 +12,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.tech {
+  margin: 3em;
+}
+
+.tech-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.padding-md {
+  padding: 5em;
+}
+
+.padding-sm {
+  padding: 2em;
+}
+
+.tech__title {
+  margin-left: 20%;
+}
