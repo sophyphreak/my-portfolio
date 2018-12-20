@@ -13,6 +13,10 @@ code {
     monospace;
 }
 
+.projects__container {
+  margin: 5%;
+}
+
 .tech {
   margin: 3em;
 }

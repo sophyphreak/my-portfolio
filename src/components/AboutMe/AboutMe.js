@@ -1,7 +1,7 @@
 import React from 'react';
 import { Jumbotron } from 'reactstrap';
 
-const Top = () => {
+const AboutMe = () => {
   return (
     <div>
       <Jumbotron>
@@ -22,4 +22,4 @@ const Top = () => {
   );
 };
 
-export default Top;
+export default AboutMe;

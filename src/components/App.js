@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
-import Navigation from './Navigation';
-import Top from './Top';
-import Technologies from './Technologies';
+import Navigation from './Navigation/Navigation';
+import AboutMe from './AboutMe/AboutMe';
+import Technologies from './Technologies/Technologies';
+import Projects from './Projects/Projects';
 
 class App extends Component {
   render() {
     return (
       <div>
         <Navigation />
-        <Top />
+        <AboutMe />
         <Technologies />
+        <Projects />
       </div>
     );
   }
