@@ -37,28 +37,18 @@ export default class Navigation extends React.Component {
               <NavItem>
                 <NavLink href="#about-me">about me</NavLink>
               </NavItem>
-              <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-              see...
-              </DropdownToggle>
-              <DropdownMenu right>
-              <DropdownItem href="#">
-              about me
-              </DropdownItem>                  
-              <DropdownItem href="#technologies">
-              technologies
-              </DropdownItem>              
-              <DropdownItem href="#full-stack-projects">
-              full stack projects
-              </DropdownItem>
-              <DropdownItem href="#front-end-projects">
-              front end projects
-              </DropdownItem>
-              <DropdownItem href="#api-projects">
-              api projects
-              </DropdownItem>
-              </DropdownMenu>
-              </UncontrolledDropdown>
+                            <NavItem>
+                <NavLink href="#technologies">technologies</NavLink>
+              </NavItem>
+                            <NavItem>
+                <NavLink href="#full-stack-projects">full stack projects</NavLink>
+              </NavItem>
+                            <NavItem>
+                <NavLink href="#front-end-projects">front end projects</NavLink>
+              </NavItem>
+                            <NavItem>
+                <NavLink href="#api-projects">api projects</NavLink>
+              </NavItem>
               <NavItem>
                 <NavLink href="#contact">contact</NavLink>
               </NavItem>
