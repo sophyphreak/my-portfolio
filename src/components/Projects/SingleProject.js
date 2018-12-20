@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardImg, CardText, CardBody, CardLink,
+import { Button, Card, CardImg, CardText, CardBody, 
   CardTitle, CardSubtitle } from 'reactstrap';
 
 const SingleProject = (props) => {
@@ -13,8 +13,10 @@ const SingleProject = (props) => {
         <CardImg width="100%" src={props.image} alt={props.title} />
         <CardBody>
           <CardText>{props.text}</CardText>
-          <CardLink href={props.demo} target="_blank">see demo</CardLink>
-          <CardLink href={props.github} target="_blank">github repo</CardLink>
+          <div className="link-buttons__container">
+            <Button color="primary" href={props.demo} target="_blank">see demo</Button>
+            <Button color="primary" href={props.github} target="_blank">github repo</Button>
+          </div>
         </CardBody>
       </Card>
     </div>

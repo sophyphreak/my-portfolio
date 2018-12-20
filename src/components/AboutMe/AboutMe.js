@@ -7,14 +7,14 @@ const AboutMe = () => {
       <Jumbotron>
         <div className="padding-md">
         <br />
-        <h1 className="display-3">Hey there!</h1>
-        <p className="lead">Congrats, you've stumbled onto my portfolio. I hope you enjoy your stay!</p>
+        <h1 className="display-3">hey there!</h1>
+        <p className="lead">congrats, you've stumbled onto my portfolio. i hope you enjoy your stay!</p>
         <hr className="my-2" />
         <br />
         <br />
         <br />
-        <h3>I'm Andrew Horn, a React developer.</h3>
-        <h3>也会中文</h3>
+        <h3>i'm andrew horn, a react developer.</h3>
+        <h3>中文也会说也会写</h3>
         <br />
         </div>
       </Jumbotron>
