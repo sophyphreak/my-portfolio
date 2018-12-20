@@ -6,11 +6,8 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem } from 'reactstrap';
+  NavLink
+} from 'reactstrap';
 
 export default class Navigation extends React.Component {
   constructor(props) {
@@ -37,16 +34,18 @@ export default class Navigation extends React.Component {
               <NavItem>
                 <NavLink href="#about-me">about me</NavLink>
               </NavItem>
-                            <NavItem>
+              <NavItem>
                 <NavLink href="#technologies">technologies</NavLink>
               </NavItem>
-                            <NavItem>
-                <NavLink href="#full-stack-projects">full stack projects</NavLink>
+              <NavItem>
+                <NavLink href="#full-stack-projects">
+                  full stack projects
+                </NavLink>
               </NavItem>
-                            <NavItem>
+              <NavItem>
                 <NavLink href="#front-end-projects">front end projects</NavLink>
               </NavItem>
-                            <NavItem>
+              <NavItem>
                 <NavLink href="#api-projects">api projects</NavLink>
               </NavItem>
               <NavItem>
