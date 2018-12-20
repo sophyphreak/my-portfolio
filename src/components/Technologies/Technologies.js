@@ -13,7 +13,7 @@ export default class Technologies extends React.Component {
           {
             techData.map(({ techCategory, list }) => (
               <Col sm="3">
-              <SingleTechCategory techCategory={techCategory} list={list} />
+                <SingleTechCategory techCategory={techCategory} list={list} />
               </Col>
             )) 
           }

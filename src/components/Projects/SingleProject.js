@@ -1,16 +1,19 @@
 import React from 'react';
 import { Button, Card, CardImg, CardText, CardBody, 
-  CardTitle, CardSubtitle } from 'reactstrap';
+  CardTitle, CardSubtitle, Col } from 'reactstrap';
 
 const SingleProject = (props) => {
   return (
-    <div>
+    <Col sm="4" className="padding-sm">
       <Card>
         <CardBody>
           <CardTitle>{props.title}</CardTitle>
+          <hr />
           <CardSubtitle>{props.subtitle}</CardSubtitle>
         </CardBody>
-        <CardImg width="100%" src={props.image} alt={props.title} />
+        <a href={props.demo} target="_blank" rel="noopener noreferrer">
+          <CardImg width="100%" src={props.image} alt={props.title} />
+        </a>
         <CardBody>
           <CardText>{props.text}</CardText>
           <div className="link-buttons__container">
@@ -19,7 +22,7 @@ const SingleProject = (props) => {
           </div>
         </CardBody>
       </Card>
-    </div>
+    </Col>
   );
 };
 

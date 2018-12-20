@@ -45,14 +45,16 @@ export default [
     list: [
       'react-quill',
       'reactstrap',
-      'react-dates'
+      'react-dates',
+      'create-react-app'
     ]
   },
   {
     techCategory: 'node libraries',
     list: [
       'nodemailer',
-      'dotenv'
+      'dotenv',
+      'nodemon'
     ]
   },
   {

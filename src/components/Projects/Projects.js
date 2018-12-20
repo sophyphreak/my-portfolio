@@ -1,19 +1,26 @@
 import React from 'react';
-import { Col } from 'reactstrap';
 import SingleProject from './SingleProject';
-import projectsInfo from './projectsInfo';
-
-const { ebookManagerApp } = projectsInfo;
+import fullStackProjectsInfo from './projectsInfo/fullStackProjectsInfo';
+import frontEndProjectsInfo from './projectsInfo/frontEndProjectsInfo';
 
 const Projects = () => (
-  <div className="projects__container">
-    <Col sm="4">
-      <section id="full-stack-projects">
-        <SingleProject {...ebookManagerApp} />
-      </section>
-      <section id="front-end-projects"></section>
-      <section id="api-projects"></section>
-    </Col>
+  <div>
+  <h1 style={{ textAlign: "center"}}>full stack projects</h1>
+    <section id="full-stack-projects" className="full-stack-projects__container">
+      {
+        fullStackProjectsInfo.map(projectInfo => <SingleProject {...projectInfo} />)
+      }
+    </section>
+  <h1 style={{ textAlign: "center"}}>front end projects</h1>
+
+    <section id="front-end-projects" className="front-end-projects__container">
+      {
+        frontEndProjectsInfo.map(projectInfo => <SingleProject {...projectInfo} />)
+      }
+    </section>
+    <section id="api-projects" className="projects__container">
+    
+    </section>
   </div>
 );
 
