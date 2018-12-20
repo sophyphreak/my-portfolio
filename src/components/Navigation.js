@@ -42,6 +42,9 @@ export default class Navigation extends React.Component {
               see...
               </DropdownToggle>
               <DropdownMenu right>
+              <DropdownItem href="#">
+              about me
+              </DropdownItem>                  
               <DropdownItem href="#technologies">
               technologies
               </DropdownItem>              
