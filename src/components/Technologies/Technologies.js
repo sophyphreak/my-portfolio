@@ -10,13 +10,11 @@ export default class Technologies extends React.Component {
         <h4 className="tech__title">technologies I have experience in:</h4>
         <br />
         <div className="tech-container">
-          {
-            techData.map(({ techCategory, list }) => (
-              <Col sm="3">
-                <SingleTechCategory techCategory={techCategory} list={list} />
-              </Col>
-            )) 
-          }
+          {techData.map(({ techCategory, list }) => (
+            <Col sm="3">
+              <SingleTechCategory techCategory={techCategory} list={list} />
+            </Col>
+          ))}
         </div>
       </section>
     );

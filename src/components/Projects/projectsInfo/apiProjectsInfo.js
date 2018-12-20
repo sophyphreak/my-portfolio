@@ -15,7 +15,8 @@ export default [
   },
   {
     title: 'metric-imperial-converter',
-    subtitle: 'express + node | helmet | lodash | mathjs | expect + mocha + supertest | digitalocean + dokku | git',
+    subtitle:
+      'express + node | helmet | lodash | mathjs | expect + mocha + supertest | digitalocean + dokku | git',
     image: metricImperialConverterImage,
     text: 'GET unit conversion',
     demo: 'https://metric-imperial-converter.andrew-horn-portfolio.life/',
@@ -31,7 +32,8 @@ export default [
   },
   {
     title: 'file-metadata',
-    subtitle: 'node + express | body-parser | lodash | multer | path | digitalocean + dokku | git',
+    subtitle:
+      'node + express | body-parser | lodash | multer | path | digitalocean + dokku | git',
     image: fileMetadataImage,
     text: 'POST your file to get some metadata about it back',
     demo: 'https://file-metadata.andrew-horn-portfolio.life/',
@@ -39,10 +41,12 @@ export default [
   },
   {
     title: 'exercise-tracker',
-    subtitle: 'node + expres | body-parser | cors | dotenv | lodash | moment | mongodb + mongoose | path | shortid | expect + mocha + supertest | digitalocean + dokku | git',
+    subtitle:
+      'node + expres | body-parser | cors | dotenv | lodash | moment | mongodb + mongoose | path | shortid | expect + mocha + supertest | digitalocean + dokku | git',
     image: exerciseTrackerImage,
-    text: 'POST to create new users and their exercises, then GET a list of a user\'s exercises',
+    text:
+      "POST to create new users and their exercises, then GET a list of a user's exercises",
     demo: 'https://exercise-tracker.andrew-horn-portfolio.life/',
     github: 'https://github.com/sophyphreak/exercise-tracker'
-  },
-]
+  }
+];

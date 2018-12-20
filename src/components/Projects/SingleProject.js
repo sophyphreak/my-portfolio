@@ -1,8 +1,16 @@
 import React from 'react';
-import { Button, Card, CardImg, CardText, CardBody, 
-  CardTitle, CardSubtitle, Col } from 'reactstrap';
+import {
+  Button,
+  Card,
+  CardImg,
+  CardText,
+  CardBody,
+  CardTitle,
+  CardSubtitle,
+  Col
+} from 'reactstrap';
 
-const SingleProject = (props) => {
+const SingleProject = props => {
   return (
     <Col sm="4" className="padding-sm">
       <Card>
@@ -17,8 +25,12 @@ const SingleProject = (props) => {
         <CardBody>
           <CardText>{props.text}</CardText>
           <div className="link-buttons__container">
-            <Button color="primary" href={props.demo} target="_blank">see demo</Button>
-            <Button color="primary" href={props.github} target="_blank">github repo</Button>
+            <Button color="primary" href={props.demo} target="_blank">
+              see demo
+            </Button>
+            <Button color="primary" href={props.github} target="_blank">
+              github repo
+            </Button>
           </div>
         </CardBody>
       </Card>
