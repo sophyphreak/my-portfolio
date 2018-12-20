@@ -3,6 +3,7 @@ import Navigation from './Navigation/Navigation';
 import AboutMe from './AboutMe/AboutMe';
 import Technologies from './Technologies/Technologies';
 import Projects from './Projects/Projects';
+import Contact from './Contact/Contact';
 import '../App.scss';
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
         <AboutMe />
         <Technologies />
         <Projects />
+        <Contact />
       </div>
     );
   }
