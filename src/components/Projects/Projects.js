@@ -2,6 +2,7 @@ import React from 'react';
 import SingleProject from './SingleProject';
 import fullStackProjectsInfo from './projectsInfo/fullStackProjectsInfo';
 import frontEndProjectsInfo from './projectsInfo/frontEndProjectsInfo';
+import apiProjectsInfo from './projectsInfo/apiProjectsInfo';
 
 const Projects = () => (
   <div>
@@ -18,8 +19,10 @@ const Projects = () => (
       }
     </section>
     <h1 style={{ textAlign: "center"}}>api projects</h1>
-    <section id="api-projects" className="projects__container">
-    
+    <section id="api-projects" className="api-projects__container">
+      {
+        apiProjectsInfo.map(projectInfo => <SingleProject {...projectInfo} />)
+      }
     </section>
   </div>
 );
