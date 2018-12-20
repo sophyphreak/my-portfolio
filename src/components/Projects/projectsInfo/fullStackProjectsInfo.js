@@ -4,7 +4,7 @@ import cookingMeasureConverterImage from './images/cooking-measure-converter.png
 export default [
   {
     title: 'ebook-manager-app',
-    subtitle: 'react + react-router + create-react-app | sass | node + express | nodemailer | webpack + babel | digitalocean + dokku | bootstrap + reactstrap | jest + enzyme | axios | react-dates | quill + react-quill | prettier | git',
+    subtitle: 'react + react-router + create-react-app | sass | node + express | nodemailer | webpack + babel | digitalocean + dokku | bootstrap + reactstrap | jest + enzyme | axios | react-dates | quill + react-quill | history | js-beautify | moment | concurrently | prettier + husky + link-staged | git',
     image: ebookManagerAppImage,
     text: 'helps you publish ebooks on amazon',
     demo: 'https://ebook-manager-app.andrew-horn-portfolio.life/#/dashboard',
@@ -12,7 +12,7 @@ export default [
   },
   {
     title: 'cooking-measure-converter',
-    subtitle: 'react | sass | node + express | webpack + babel + next | digitalocean + dokku | bootstrap + reactstrap | jest + enzyme | axios | firebase | prettier | git',
+    subtitle: 'react | sass | node + express | webpack + babel + next | digitalocean + dokku | bootstrap + reactstrap | jest + enzyme + react-test-renderer | axios | firebase | convert-units | body-parser | html-to-text | moment | round-precision | prettier + husky + lint-staged | git',
     image: cookingMeasureConverterImage,
     text: 'helps you convert metric to imperial measures and vice versa for cooking.',
     demo: 'https://cooking-measure-converter.andrew-horn-portfolio.life/',

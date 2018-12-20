@@ -30,7 +30,7 @@ export default [
   },
   {
     title: 'markdown-previewer',
-    subtitle: 'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
+    subtitle: 'react + create-react-app | marked | digitalocean + dokku | bootstrap + reactstrap | git',
     image: markdownPreviewerImage,
     text: 'you can write in markdown and instantly see the result',
     demo: 'https://markdown-previewer.andrew-horn-portfolio.life/',
@@ -46,7 +46,7 @@ export default [
   },
   {
     title: 'tic-tac-toe',
-    subtitle: 'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
+    subtitle: 'react + create-react-app | underscore | digitalocean + dokku | bootstrap + reactstrap | git',
     image: ticTacToeImage,
     text: 'play the classic simon game in your browser',
     demo: 'https://tic-tac-toe.andrew-horn-portfolio.life/',
@@ -54,7 +54,7 @@ export default [
   },
   {
     title: 'pomodoro-clock',
-    subtitle: 'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
+    subtitle: 'react + create-react-app | digitalocean + dokku | git',
     image: pomodoroClockImage,
     text: 'manage your busy time better. and take breaks!!',
     demo: 'https://pomodoro-clock.andrew-horn-portfolio.life/',
@@ -62,7 +62,7 @@ export default [
   },
   {
     title: 'calculator',
-    subtitle: 'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
+    subtitle: 'react + create-react-app | digitalocean + dokku | git',
     image: calculatorImage,
     text: 'do the numbers',
     demo: 'https://calculator.andrew-horn-portfolio.life/',
@@ -70,7 +70,7 @@ export default [
   },
   {
     title: 'wikipedia-viewer',
-    subtitle: 'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
+    subtitle: 'react + create-react-app | axios | digitalocean + dokku | bootstrap + reactstrap | react-flip-move | git',
     image: wikipediaViewerImage,
     text: 'idk something about wikipedia',
     demo: 'https://wikipedia-viewer.andrew-horn-portfolio.life/',
@@ -94,7 +94,7 @@ export default [
   },
   {
     title: 'tribute-page-for-deng-xiaoping',
-    subtitle: 'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
+    subtitle: 'html + css | digitalocean + dokku | git',
     image: tributePageForDengXiaopingImage,
     text: 'learn about communist china\'s greatest leader',
     demo: 'https://tribute-page-for-deng-xiaoping.andrew-horn-portfolio.life/',
