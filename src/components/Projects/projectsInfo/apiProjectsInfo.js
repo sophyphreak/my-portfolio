@@ -7,45 +7,45 @@ import exerciseTrackerImage from './images/exercise-tracker.png';
 export default [
   {
     title: 'timestamp',
-    subtitle: 'node + express | cors | digitalocean + dokku | git',
     image: timestampImage,
-    text: 'GET a timestamp',
+    subtitle: 'GET a timestamp',
+    text: 'node + express | cors | digitalocean + dokku | git',
     demo: 'https://timestamp.andrew-horn-portfolio.life/',
     github: 'https://github.com/sophyphreak/timestamp'
   },
   {
     title: 'metric-imperial-converter',
-    subtitle:
-      'express + node | helmet | lodash | mathjs | expect + mocha + supertest | digitalocean + dokku | git',
     image: metricImperialConverterImage,
-    text: 'GET unit conversion',
+    subtitle: 'GET unit conversion',
+    text:
+      'express + node | helmet | lodash | mathjs | expect + mocha + supertest | digitalocean + dokku | git',
     demo: 'https://metric-imperial-converter.andrew-horn-portfolio.life/',
     github: 'https://github.com/sophyphreak/metric-imperial-converter'
   },
   {
     title: 'request-header-parser',
-    subtitle: 'node + express | digitalocean + dokku | git',
     image: requestHeaderImage,
-    text: 'GET some information about your header',
+    subtitle: 'GET some information about your header',
+    text: 'node + express | digitalocean + dokku | git',
     demo: 'https://request-header.andrew-horn-portfolio.life/',
     github: 'https://github.com/sophyphreak/request-header'
   },
   {
     title: 'file-metadata',
-    subtitle:
-      'node + express | body-parser | lodash | multer | path | digitalocean + dokku | git',
     image: fileMetadataImage,
-    text: 'POST your file to get some metadata about it back',
+    subtitle: 'POST your file to get some metadata about it back',
+    text:
+      'node + express | body-parser | lodash | multer | path | digitalocean + dokku | git',
     demo: 'https://file-metadata.andrew-horn-portfolio.life/',
     github: 'https://github.com/sophyphreak/file-metadata'
   },
   {
     title: 'exercise-tracker',
-    subtitle:
-      'node + expres | body-parser | cors | dotenv | lodash | moment | mongodb + mongoose | path | shortid | expect + mocha + supertest | digitalocean + dokku | git',
     image: exerciseTrackerImage,
-    text:
+    subtitle:
       "POST to create new users and their exercises, then GET a list of a user's exercises",
+    text:
+      'node + expres | body-parser | cors | dotenv | lodash | moment | mongodb + mongoose | path | shortid | expect + mocha + supertest | digitalocean + dokku | git',
     demo: 'https://exercise-tracker.andrew-horn-portfolio.life/',
     github: 'https://github.com/sophyphreak/exercise-tracker'
   }

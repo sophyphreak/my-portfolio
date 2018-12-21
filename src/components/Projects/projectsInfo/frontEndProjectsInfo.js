@@ -14,106 +14,106 @@ import tributePageForDengXiaopingImage from './images/tribute-page-to-deng-xiaop
 export default [
   {
     title: 'game-of-life',
-    subtitle:
-      'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
     image: gameOfLifeImage,
-    text: "an implementation of conway's game of life",
+    subtitle: "an implementation of conway's game of life",
+    text:
+      'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
     demo: 'https://game-of-life.andrew-horn-portfolio.life/',
     github: 'https://github.com/sophyphreak/game-of-life'
   },
   {
     title: 'recipe-list',
-    subtitle:
-      'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
     image: recipeListImage,
-    text:
+    subtitle:
       'you can make recipes with crud operations, with the data saved in localhost',
+    text:
+      'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
     demo: 'https://recipe-list.andrew-horn-portfolio.life/',
     github: 'https://github.com/sophyphreak/recipe-list'
   },
   {
     title: 'markdown-previewer',
-    subtitle:
-      'react + create-react-app | marked | digitalocean + dokku | bootstrap + reactstrap | git',
     image: markdownPreviewerImage,
-    text: 'you can write in markdown and instantly see the result',
+    subtitle: 'you can write in markdown and instantly see the result',
+    text:
+      'react + create-react-app | marked | digitalocean + dokku | bootstrap + reactstrap | git',
     demo: 'https://markdown-previewer.andrew-horn-portfolio.life/',
     github: 'https://github.com/sophyphreak/markdown-previewer'
   },
   {
     title: 'simon',
-    subtitle:
-      'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
     image: simonImage,
-    text: 'play the classic simon game in your browser',
+    subtitle: 'play the classic simon game in your browser',
+    text:
+      'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
     demo: 'https://simon.andrew-horn-portfolio.life/',
     github: 'https://github.com/sophyphreak/simon'
   },
   {
     title: 'tic-tac-toe',
-    subtitle:
-      'react + create-react-app | underscore | digitalocean + dokku | bootstrap + reactstrap | git',
     image: ticTacToeImage,
-    text: 'play the classic simon game in your browser',
+    subtitle: 'play the classic simon game in your browser',
+    text:
+      'react + create-react-app | underscore | digitalocean + dokku | bootstrap + reactstrap | git',
     demo: 'https://tic-tac-toe.andrew-horn-portfolio.life/',
     github: 'https://github.com/sophyphreak/tic-tac-toe'
   },
   {
     title: 'pomodoro-clock',
-    subtitle: 'react + create-react-app | digitalocean + dokku | git',
     image: pomodoroClockImage,
-    text: 'manage your busy time better. and take breaks!!',
+    subtitle: 'manage your busy time better. and take breaks!!',
+    text: 'react + create-react-app | digitalocean + dokku | git',
     demo: 'https://pomodoro-clock.andrew-horn-portfolio.life/',
     github: 'https://github.com/sophyphreak/pomodoro-clock'
   },
   {
     title: 'calculator',
-    subtitle: 'react + create-react-app | digitalocean + dokku | git',
     image: calculatorImage,
-    text: 'do the numbers',
+    subtitle: 'do the numbers',
+    text: 'react + create-react-app | digitalocean + dokku | git',
     demo: 'https://calculator.andrew-horn-portfolio.life/',
     github: 'https://github.com/sophyphreak/calculator'
   },
   {
     title: 'whos-streaming-twitch',
-    subtitle: 'react + create-react-app | digitalocean + dokku | git',
     image: whosStreamingOnTwitchInage,
-    text: "see who's on twich now",
+    subtitle: "see who's on twich now",
+    text: 'react + create-react-app | digitalocean + dokku | git',
     demo: 'https://whos-streaming-twitch.andrew-horn-portfolio.life/',
     github: 'https://github.com/sophyphreak/whos-streaming-twitch'
   },
   {
     title: 'wikipedia-viewer',
-    subtitle:
-      'react + create-react-app | axios | digitalocean + dokku | bootstrap + reactstrap | react-flip-move | git',
     image: wikipediaViewerImage,
-    text: 'idk something about wikipedia',
+    subtitle: 'idk something about wikipedia',
+    text:
+      'react + create-react-app | axios | digitalocean + dokku | bootstrap + reactstrap | react-flip-move | git',
     demo: 'https://wikipedia-viewer.andrew-horn-portfolio.life/',
     github: 'https://github.com/sophyphreak/wikipedia-viewer'
   },
   {
     title: 'whats-the-weather-like',
-    subtitle:
-      'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
     image: whatsTheWeatherImage,
-    text: "see what the weather's like. may require refresh",
+    subtitle: "see what the weather's like. may require refresh",
+    text:
+      'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
     demo: 'https://whats-the-weather-like.andrew-horn-portfolio.life/',
     github: 'https://github.com/sophyphreak/whats-the-weather-like'
   },
   {
     title: 'random-zhuangzi-quote-machine',
-    subtitle:
-      'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
     image: randomZhuangziQuoteMachineImage,
-    text: 'get some wisdom from ancient wise words',
+    subtitle: 'get some wisdom from ancient wise words',
+    text:
+      'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
     demo: 'https://random-zhuangzi-quote-machine.andrew-horn-portfolio.life/',
     github: 'https://github.com/sophyphreak/random-zhuangzi-quote-machine'
   },
   {
     title: 'tribute-page-for-deng-xiaoping',
-    subtitle: 'html + css | digitalocean + dokku | git',
     image: tributePageForDengXiaopingImage,
-    text: "learn about communist china's greatest leader",
+    subtitle: "learn about communist china's greatest leader",
+    text: 'html + css | digitalocean + dokku | git',
     demo: 'https://tribute-page-for-deng-xiaoping.andrew-horn-portfolio.life/',
     github: 'https://github.com/sophyphreak/tribute-page-for-deng-xiaoping'
   }

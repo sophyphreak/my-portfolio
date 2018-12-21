@@ -15,14 +15,14 @@ const SingleProject = props => {
     <Col sm="4" className="padding-sm">
       <Card>
         <CardBody>
-          <CardTitle>{props.title}</CardTitle>
-          <hr />
-          <CardSubtitle>{props.subtitle}</CardSubtitle>
+          <h2>{props.title}</h2>
         </CardBody>
         <a href={props.demo} target="_blank" rel="noopener noreferrer">
           <CardImg width="100%" src={props.image} alt={props.title} />
         </a>
         <CardBody>
+          <CardSubtitle>{props.subtitle}</CardSubtitle>
+          <hr />
           <CardText>{props.text}</CardText>
           <div className="link-buttons__container">
             <Button color="primary" href={props.demo} target="_blank">
