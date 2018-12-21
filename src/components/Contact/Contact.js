@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/fontawesome-free-brands';
 
 const Contact = () => (
-  <div>
+  <section id="contact">
     <h1 className="contact__header">Contact Me</h1>
     <div className="contact__container">
       <Button className="contact__button" href="https://github.com/sophyphreak">
@@ -17,7 +17,7 @@ const Contact = () => (
         <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
       </Button>
     </div>
-  </div>
+  </section>
 );
 
 export default Contact;

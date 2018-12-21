@@ -3,7 +3,7 @@ import { Jumbotron } from 'reactstrap';
 
 const AboutMe = () => {
   return (
-    <div>
+    <section id="about-me">
       <Jumbotron>
         <div className="padding-md">
           <br />
@@ -36,7 +36,7 @@ const AboutMe = () => {
           </h3>
         </div>
       </Jumbotron>
-    </div>
+    </section>
   );
 };
 
