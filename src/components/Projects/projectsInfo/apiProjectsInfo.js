@@ -29,7 +29,7 @@ export default [
     subtitle: 'GET some information about your header',
     text: 'node + express | digitalocean + dokku | git',
     demo: 'https://request-header.andrew-horn-portfolio.life/',
-    github: 'https://github.com/sophyphreak/request-header'
+    github: 'https://github.com/sophyphreak/request-header-parser'
   },
   {
     title: 'file-metadata',
