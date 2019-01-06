@@ -4,6 +4,7 @@ import requestHeaderImage from './images/request-header.png';
 import fileMetadataImage from './images/file-metadata.png';
 import exerciseTrackerImage from './images/exercise-tracker.png';
 import issueTrackerImage from './images/issue-tracker.png';
+import urlShortenerImage from './images/url-shortener.png';
 
 export default [
   {
@@ -58,5 +59,14 @@ export default [
       'node + express | body-parser | cors | dotenv | helmet | lodash | moment | mongodb + mongoose | path | chai + chai-http + mocha | husky + lint-staged + prettier | digitalocean + dokku | zombie | git',
     demo: 'https://issue-tracker.andrew-horn-portfolio.life/',
     github: 'https://github.com/sophyphreak/issue-tracker'
+  },
+  {
+    title: 'url-shortener',
+    image: urlShortenerImage,
+    subtitle: 'shortens urls and redirects',
+    text:
+      'node + express | body-parser | cors | dotenv | is-valid-http-url | mongodb + mongoose | digitalocean + dokku | git',
+    demo: 'https://url-shortener.andrew-horn-portfolio.life/',
+    github: 'https://github.com/sophyphreak/url-shortener'
   }
 ];
