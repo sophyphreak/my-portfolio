@@ -15,7 +15,7 @@ const SingleProject = props => {
     <Col sm="4" className="padding-sm">
       <Card>
         <CardBody>
-          <h2>{props.title}</h2>
+          <CardTitle>{props.title}</CardTitle>
         </CardBody>
         <a href={props.demo} target="_blank" rel="noopener noreferrer">
           <CardImg width="100%" src={props.image} alt={props.title} />
