@@ -8,6 +8,34 @@ import urlShortenerImage from './images/url-shortener.png';
 
 export default [
   {
+    title: 'issue-tracker',
+    image: issueTrackerImage,
+    subtitle: 'has all CRUD operations with REST API',
+    text:
+      'node + express | body-parser | cors | dotenv | helmet | lodash | moment | mongodb + mongoose | path | chai + chai-http + mocha | husky + lint-staged + prettier | digitalocean + dokku | zombie | git',
+    demo: 'https://issue-tracker.andrew-horn-portfolio.life/',
+    github: 'https://github.com/sophyphreak/issue-tracker'
+  },
+  {
+    title: 'exercise-tracker',
+    image: exerciseTrackerImage,
+    subtitle:
+      "POST to create new users and their exercises, then GET a list of a user's exercises",
+    text:
+      'node + express | body-parser | cors | dotenv | lodash | moment | mongodb + mongoose | path | expect + mocha + supertest | husky + lint-staged + prettier | digitalocean + dokku | git',
+    demo: 'https://exercise-tracker.andrew-horn-portfolio.life/',
+    github: 'https://github.com/sophyphreak/exercise-tracker'
+  },
+  {
+    title: 'url-shortener',
+    image: urlShortenerImage,
+    subtitle: 'shortens urls and redirects',
+    text:
+      'node + express | body-parser | cors | dotenv | is-valid-http-url | mongodb + mongoose | digitalocean + dokku | git',
+    demo: 'https://url-shortener.andrew-horn-portfolio.life/',
+    github: 'https://github.com/sophyphreak/url-shortener'
+  },
+  {
     title: 'timestamp',
     image: timestampImage,
     subtitle: 'GET a timestamp',
@@ -40,33 +68,5 @@ export default [
       'node + express | body-parser | lodash | multer | path | digitalocean + dokku | git',
     demo: 'https://file-metadata.andrew-horn-portfolio.life/',
     github: 'https://github.com/sophyphreak/file-metadata'
-  },
-  {
-    title: 'exercise-tracker',
-    image: exerciseTrackerImage,
-    subtitle:
-      "POST to create new users and their exercises, then GET a list of a user's exercises",
-    text:
-      'node + express | body-parser | cors | dotenv | lodash | moment | mongodb + mongoose | path | expect + mocha + supertest | husky + lint-staged + prettier | digitalocean + dokku | git',
-    demo: 'https://exercise-tracker.andrew-horn-portfolio.life/',
-    github: 'https://github.com/sophyphreak/exercise-tracker'
-  },
-  {
-    title: 'issue-tracker',
-    image: issueTrackerImage,
-    subtitle: 'has all CRUD operations with REST API',
-    text:
-      'node + express | body-parser | cors | dotenv | helmet | lodash | moment | mongodb + mongoose | path | chai + chai-http + mocha | husky + lint-staged + prettier | digitalocean + dokku | zombie | git',
-    demo: 'https://issue-tracker.andrew-horn-portfolio.life/',
-    github: 'https://github.com/sophyphreak/issue-tracker'
-  },
-  {
-    title: 'url-shortener',
-    image: urlShortenerImage,
-    subtitle: 'shortens urls and redirects',
-    text:
-      'node + express | body-parser | cors | dotenv | is-valid-http-url | mongodb + mongoose | digitalocean + dokku | git',
-    demo: 'https://url-shortener.andrew-horn-portfolio.life/',
-    github: 'https://github.com/sophyphreak/url-shortener'
   }
 ];
