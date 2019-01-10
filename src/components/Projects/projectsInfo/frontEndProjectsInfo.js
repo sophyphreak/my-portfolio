@@ -9,6 +9,7 @@ import whosStreamingOnTwitchInage from './images/whos-on-twitch.png';
 import wikipediaViewerImage from './images/wikipedia-viewer.png';
 import whatsTheWeatherImage from './images/whats-the-weather.png';
 import randomZhuangziQuoteMachineImage from './images/random-zhuangzi-quote-machine.png';
+import surveyFormImage from './images/survey-form.png';
 import tributePageForDengXiaopingImage from './images/tribute-page-to-deng-xiaoping.png';
 
 export default [
@@ -108,6 +109,15 @@ export default [
       'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
     demo: 'https://random-zhuangzi-quote-machine.andrew-horn-portfolio.life/',
     github: 'https://github.com/sophyphreak/random-zhuangzi-quote-machine'
+  },
+  {
+    title: 'survey-form',
+    image: surveyFormImage,
+    subtitle: 'see my test creating a static form site with gatsby and formik',
+    text:
+      'react + gatsby | formik + yup | digitalocean + dokku | prettier | git',
+    demo: 'https://tribute-page-for-deng-xiaoping.andrew-horn-portfolio.life/',
+    github: 'https://github.com/sophyphreak/tribute-page-for-deng-xiaoping'
   },
   {
     title: 'tribute-page-for-deng-xiaoping',
