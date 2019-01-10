@@ -116,8 +116,8 @@ export default [
     subtitle: 'see my test creating a static form site with gatsby and formik',
     text:
       'react + gatsby | formik + yup | digitalocean + dokku | prettier | git',
-    demo: 'https://tribute-page-for-deng-xiaoping.andrew-horn-portfolio.life/',
-    github: 'https://github.com/sophyphreak/tribute-page-for-deng-xiaoping'
+    demo: 'https://survey-form.andrew-horn-portfolio.life/',
+    github: 'https://github.com/sophyphreak/survey-form'
   },
   {
     title: 'tribute-page-for-deng-xiaoping',
