@@ -4,16 +4,16 @@ export default [
     list: ['javascript es6', 'css', 'html']
   },
   {
-    techCategory: 'front end',
+    techCategory: 'frontend',
     list: ['react', 'webpack', 'babel', 'bootstrap', 'materialui']
   },
   {
-    techCategory: 'back end',
+    techCategory: 'backend',
     list: ['node', 'express']
   },
   {
-    techCategory: 'database',
-    list: ['mongodb', 'firebase']
+    techCategory: 'databases',
+    list: ['mongodb + mongoose', 'firebase']
   },
   {
     techCategory: 'hosting',
@@ -29,7 +29,7 @@ export default [
   },
   {
     techCategory: 'testing',
-    list: ['jest', 'enzyme', 'mocha']
+    list: ['jest', 'enzyme', 'mocha', 'chai']
   },
   {
     techCategory: 'version control',
@@ -38,6 +38,14 @@ export default [
   {
     techCategory: 'routing',
     list: ['react-router', 'next']
+  },
+  {
+    techCategory: 'forms',
+    list: ['formik', 'yup']
+  },
+  {
+    techCategory: 'static sites',
+    list: ['gatsby']
   },
   {
     techCategory: 'cleanliness',
