@@ -35,9 +35,6 @@ export default class Navigation extends React.Component {
                 <NavLink href="#about-me">about me</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#technologies">technologies</NavLink>
-              </NavItem>
-              <NavItem>
                 <NavLink href="#full-stack-projects">
                   full stack projects
                 </NavLink>
@@ -47,6 +44,9 @@ export default class Navigation extends React.Component {
               </NavItem>
               <NavItem>
                 <NavLink href="#api-projects">api projects</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#technologies">technologies</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#contact">contact</NavLink>
