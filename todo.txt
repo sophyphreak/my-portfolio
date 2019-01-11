@@ -1,0 +1,5 @@
+TODOS
+
+1) migrate all front end projects to netlify
+2) change root page to gatsby
+3) begin changing all projects to gatsby(?)
