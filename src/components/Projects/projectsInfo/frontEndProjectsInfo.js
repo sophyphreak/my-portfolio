@@ -71,7 +71,7 @@ export default [
     title: 'calculator',
     image: calculatorImage,
     subtitle: 'do the numbers',
-    text: 'react + create-react-app | digitalocean + dokku | git',
+    text: 'react + create-react-app | netlify | git',
     demo: 'https://calculator-andrew-horn.netlify.com/',
     github: 'https://github.com/sophyphreak/calculator'
   },
