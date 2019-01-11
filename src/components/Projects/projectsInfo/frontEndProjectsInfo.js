@@ -114,9 +114,8 @@ export default [
     title: 'survey-form',
     image: surveyFormImage,
     subtitle: 'see my test creating a static form site with gatsby and formik',
-    text:
-      'react + gatsby | formik + yup | digitalocean + dokku | prettier | git',
-    demo: 'https://survey-form.andrew-horn-portfolio.life/',
+    text: 'react + gatsby | formik + yup | netlify | prettier | git',
+    demo: 'https://quizzical-villani-181d81.netlify.com/',
     github: 'https://github.com/sophyphreak/survey-form'
   },
   {
