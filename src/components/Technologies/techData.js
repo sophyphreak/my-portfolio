@@ -17,7 +17,7 @@ export default [
   },
   {
     techCategory: 'hosting',
-    list: ['digitalocean + dokku', 'heroku', 'now', 'surge']
+    list: ['digitalocean + dokku', 'heroku', 'netlify', 'now', 'surge']
   },
   {
     techCategory: 'react libraries',
