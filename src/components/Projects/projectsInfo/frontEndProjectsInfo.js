@@ -72,7 +72,7 @@ export default [
     image: calculatorImage,
     subtitle: 'do the numbers',
     text: 'react + create-react-app | digitalocean + dokku | git',
-    demo: 'https://calculator.andrew-horn-portfolio.life/',
+    demo: 'https://calculator-andrew-horn.netlify.com/',
     github: 'https://github.com/sophyphreak/calculator'
   },
   {
