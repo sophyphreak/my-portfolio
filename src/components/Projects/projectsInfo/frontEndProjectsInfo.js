@@ -19,7 +19,7 @@ export default [
     subtitle: "an implementation of conway's game of life",
     text:
       'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
-    demo: 'https://game-of-life.andrew-horn-portfolio.life/',
+    demo: 'https://game-of-life-andrew-horn.netlify.com/',
     github: 'https://github.com/sophyphreak/game-of-life'
   },
   {
