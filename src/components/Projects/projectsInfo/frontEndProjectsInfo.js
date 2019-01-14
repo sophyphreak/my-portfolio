@@ -38,7 +38,7 @@ export default [
     subtitle: 'you can write in markdown and instantly see the result',
     text:
       'react + create-react-app | marked | digitalocean + dokku | bootstrap + reactstrap | git',
-    demo: 'https://markdown-previewer.andrew-horn-portfolio.life/',
+    demo: 'https://markdown-previewer-andrew-horn.netlify.com/',
     github: 'https://github.com/sophyphreak/markdown-previewer'
   },
   {
