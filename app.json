@@ -3,5 +3,10 @@
     "dokku": {
       "predeploy": "yarn run build"
     }
-  }
+  },
+  "buildpacks": [
+    {
+      "url": "mars/create-react-app"
+    }
+  ]
 }
