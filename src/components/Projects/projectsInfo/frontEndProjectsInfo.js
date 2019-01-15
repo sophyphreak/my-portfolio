@@ -17,8 +17,7 @@ export default [
     title: 'game-of-life',
     image: gameOfLifeImage,
     subtitle: "an implementation of conway's game of life",
-    text:
-      'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
+    text: 'react + create-react-app | netlify | bootstrap + reactstrap | git',
     demo: 'https://game-of-life-andrew-horn.netlify.com/',
     github: 'https://github.com/sophyphreak/game-of-life'
   },
@@ -37,7 +36,7 @@ export default [
     image: markdownPreviewerImage,
     subtitle: 'you can write in markdown and instantly see the result',
     text:
-      'react + create-react-app | marked | digitalocean + dokku | bootstrap + reactstrap | git',
+      'react + create-react-app | marked | netlify | bootstrap + reactstrap | git',
     demo: 'https://markdown-previewer-andrew-horn.netlify.com/',
     github: 'https://github.com/sophyphreak/markdown-previewer'
   },
@@ -63,7 +62,7 @@ export default [
     title: 'pomodoro-clock',
     image: pomodoroClockImage,
     subtitle: 'manage your busy time better. and take breaks!!',
-    text: 'react + create-react-app | digitalocean + dokku | git',
+    text: 'react + create-react-app | netlify | git',
     demo: 'https://pomodoro-clock-andrew-horn.netlify.com/',
     github: 'https://github.com/sophyphreak/pomodoro-clock'
   },
