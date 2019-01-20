@@ -1,5 +1,6 @@
 import gameOfLifeImage from './images/game-of-life.png';
 import recipeListImage from './images/recipe-list.png';
+import reduxCountersImage from './images/redux-counters.png';
 import markdownPreviewerImage from './images/markdown-previewer.png';
 import simonImage from './images/simon.png';
 import ticTacToeImage from './images/tic-tac-toe.png';
@@ -26,10 +27,17 @@ export default [
     image: recipeListImage,
     subtitle:
       'you can make recipes with crud operations, with the data saved in localhost',
-    text:
-      'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
+    text: 'react + create-react-app | netlify | bootstrap + reactstrap | git',
     demo: 'https://recipe-list-andrew-horn.netlify.com',
     github: 'https://github.com/sophyphreak/recipe-list'
+  },
+  {
+    title: 'redux-counters',
+    image: reduxCountersImage,
+    subtitle: 'you can have a bunch of counters with a redux state',
+    text: 'react + create-react-app | netlify | bootstrap + reactstrap | git',
+    demo: 'https://redux-counters-andrew-horn.netlify.com',
+    github: 'https://github.com/sophyphreak/redux-counters'
   },
   {
     title: 'markdown-previewer',
