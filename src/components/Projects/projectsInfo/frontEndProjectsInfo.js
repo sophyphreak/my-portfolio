@@ -28,7 +28,7 @@ export default [
       'you can make recipes with crud operations, with the data saved in localhost',
     text:
       'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
-    demo: 'https://recipe-list.andrew-horn-portfolio.life/',
+    demo: 'https://recipe-list-andrew-horn.netlify.com',
     github: 'https://github.com/sophyphreak/recipe-list'
   },
   {
