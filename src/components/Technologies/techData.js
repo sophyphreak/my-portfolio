@@ -5,7 +5,7 @@ export default [
   },
   {
     techCategory: 'frontend',
-    list: ['react', 'webpack', 'babel', 'bootstrap', 'materialui']
+    list: ['react', 'redux', 'webpack', 'babel']
   },
   {
     techCategory: 'backend',
@@ -34,6 +34,10 @@ export default [
   {
     techCategory: 'version control',
     list: ['git']
+  },
+  {
+    techCategory: 'making things pretty',
+    list: ['bootstrap', 'materialui']
   },
   {
     techCategory: 'routing',
