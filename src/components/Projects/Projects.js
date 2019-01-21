@@ -21,7 +21,7 @@ const Projects = () => (
         <SingleProject {...projectInfo} />
       ))}
     </section>
-    <h1 style={{ textAlign: 'center' }}>api projects</h1>
+    <h1 style={{ textAlign: 'center' }}>rest api projects</h1>
     <section id="api-projects" className="api-projects__container">
       {apiProjectsInfo.map(projectInfo => (
         <SingleProject {...projectInfo} />
