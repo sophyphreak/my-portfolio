@@ -11,7 +11,7 @@ export default class Technologies extends React.Component {
         <br />
         <div className="tech-container">
           {techData.map(({ techCategory, list }) => (
-            <Col sm="3">
+            <Col lg="3" md="6" sm="12">
               <SingleTechCategory techCategory={techCategory} list={list} />
             </Col>
           ))}

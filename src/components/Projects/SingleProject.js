@@ -12,7 +12,7 @@ import {
 
 const SingleProject = props => {
   return (
-    <Col sm="4" className="padding-sm">
+    <Col lg="4" md="6" sm="12" className="padding-sm">
       <Card>
         <CardBody>
           <CardTitle>{props.title}</CardTitle>

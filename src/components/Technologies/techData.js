@@ -37,7 +37,7 @@ export default [
   },
   {
     techCategory: 'making things pretty',
-    list: ['bootstrap', 'materialui']
+    list: ['sass', 'bootstrap', 'materialui']
   },
   {
     techCategory: 'routing',
@@ -57,6 +57,6 @@ export default [
   },
   {
     techCategory: 'others',
-    list: ['axios', 'moment', 'sass']
+    list: ['axios', 'moment']
   }
 ];
