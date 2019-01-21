@@ -1,6 +1,7 @@
 import gameOfLifeImage from './images/game-of-life.png';
 import recipeListImage from './images/recipe-list.png';
 import reduxCountersImage from './images/redux-counters.png';
+import drumMachineImage from './images/drum-machine.png';
 import markdownPreviewerImage from './images/markdown-previewer.png';
 import simonImage from './images/simon.png';
 import ticTacToeImage from './images/tic-tac-toe.png';
@@ -35,9 +36,19 @@ export default [
     title: 'redux-counters',
     image: reduxCountersImage,
     subtitle: 'you can have a bunch of counters with a redux state',
-    text: 'react + create-react-app | netlify | bootstrap + reactstrap | git',
+    text:
+      'react + redux + create-react-app | netlify | bootstrap + reactstrap | prettier | git',
     demo: 'https://redux-counters-andrew-horn.netlify.com',
     github: 'https://github.com/sophyphreak/redux-counters'
+  },
+  {
+    title: 'drum-machine',
+    image: drumMachineImage,
+    subtitle: 'you can play drum sounds with key presses or button clicks',
+    text:
+      'react + create-react-app | netlify | bootstrap + reactstrap | prettier | git',
+    demo: 'https://drum-machine-andrew-horn.netlify.com/',
+    github: 'https://github.com/sophyphreak/drum-machine'
   },
   {
     title: 'markdown-previewer',
