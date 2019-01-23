@@ -36,7 +36,7 @@ export default [
     list: ['git']
   },
   {
-    techCategory: 'making things pretty',
+    techCategory: 'styling',
     list: ['sass', 'bootstrap', 'materialui']
   },
   {
@@ -48,12 +48,12 @@ export default [
     list: ['formik', 'yup']
   },
   {
-    techCategory: 'static sites',
+    techCategory: 'static site generator',
     list: ['gatsby']
   },
   {
-    techCategory: 'cleanliness',
-    list: ['prettier', 'eslint', 'husky']
+    techCategory: 'clean code tools',
+    list: ['prettier', 'eslint', 'husky', 'pretty-quick']
   },
   {
     techCategory: 'others',
