@@ -11,6 +11,7 @@ import whosStreamingOnTwitchInage from './images/whos-on-twitch.png';
 import wikipediaViewerImage from './images/wikipedia-viewer.png';
 import whatsTheWeatherImage from './images/whats-the-weather.png';
 import randomZhuangziQuoteMachineImage from './images/random-zhuangzi-quote-machine.png';
+import palindromeCheckerImage from './images/palindrome-checker.png';
 import surveyFormImage from './images/survey-form.png';
 import tributePageForDengXiaopingImage from './images/tribute-page-to-deng-xiaoping.png';
 
@@ -51,15 +52,6 @@ export default [
     github: 'https://github.com/sophyphreak/drum-machine'
   },
   {
-    title: 'markdown-previewer',
-    image: markdownPreviewerImage,
-    subtitle: 'you can write in markdown and instantly see the result',
-    text:
-      'react + create-react-app | marked | netlify | bootstrap + reactstrap | git',
-    demo: 'https://markdown-previewer-andrew-horn.netlify.com/',
-    github: 'https://github.com/sophyphreak/markdown-previewer'
-  },
-  {
     title: 'simon',
     image: simonImage,
     subtitle: 'play the classic simon game in your browser',
@@ -92,6 +84,15 @@ export default [
     text: 'react + create-react-app | netlify | git',
     demo: 'https://calculator-andrew-horn.netlify.com/',
     github: 'https://github.com/sophyphreak/calculator'
+  },
+  {
+    title: 'markdown-previewer',
+    image: markdownPreviewerImage,
+    subtitle: 'you can write in markdown and instantly see the result',
+    text:
+      'react + create-react-app | marked | netlify | bootstrap + reactstrap | git',
+    demo: 'https://markdown-previewer-andrew-horn.netlify.com/',
+    github: 'https://github.com/sophyphreak/markdown-previewer'
   },
   {
     title: 'whos-streaming-twitch',
@@ -127,6 +128,14 @@ export default [
       'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
     demo: 'https://random-zhuangzi-quote-machine.andrew-horn-portfolio.life/',
     github: 'https://github.com/sophyphreak/random-zhuangzi-quote-machine'
+  },
+  {
+    title: 'palindrome-checker',
+    image: palindromeCheckerImage,
+    subtitle: "check if it's a palindrome",
+    text: 'react + create-react-app | netlify | bootstap + reactstrap | git',
+    demo: 'https://palindrome-checker-andrew-horn.netlify.com',
+    github: 'https://github.com/sophyphreak/palindrome-checker'
   },
   {
     title: 'survey-form',
