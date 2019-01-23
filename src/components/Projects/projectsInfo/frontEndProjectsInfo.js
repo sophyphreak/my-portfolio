@@ -43,15 +43,6 @@ export default [
     github: 'https://github.com/sophyphreak/redux-counters'
   },
   {
-    title: 'drum-machine',
-    image: drumMachineImage,
-    subtitle: 'you can play drum sounds with key presses or button clicks',
-    text:
-      'react + create-react-app | netlify | bootstrap + reactstrap | prettier | git',
-    demo: 'https://drum-machine-andrew-horn.netlify.com/',
-    github: 'https://github.com/sophyphreak/drum-machine'
-  },
-  {
     title: 'simon',
     image: simonImage,
     subtitle: 'play the classic simon game in your browser',
@@ -84,6 +75,15 @@ export default [
     text: 'react + create-react-app | netlify | git',
     demo: 'https://calculator-andrew-horn.netlify.com/',
     github: 'https://github.com/sophyphreak/calculator'
+  },
+  {
+    title: 'drum-machine',
+    image: drumMachineImage,
+    subtitle: 'you can play drum sounds with key presses or button clicks',
+    text:
+      'react + create-react-app | netlify | bootstrap + reactstrap | prettier | git',
+    demo: 'https://drum-machine-andrew-horn.netlify.com/',
+    github: 'https://github.com/sophyphreak/drum-machine'
   },
   {
     title: 'markdown-previewer',
