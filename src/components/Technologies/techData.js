@@ -1,7 +1,7 @@
 export default [
   {
     techCategory: 'langauges',
-    list: ['javascript es6', 'css', 'html']
+    list: ['javascript es6', 'css', 'html', 'python 3.6', 'java']
   },
   {
     techCategory: 'frontend',
