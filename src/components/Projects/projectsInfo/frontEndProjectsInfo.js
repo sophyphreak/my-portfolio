@@ -11,8 +11,9 @@ import whosStreamingOnTwitchInage from './images/whos-on-twitch.png';
 import wikipediaViewerImage from './images/wikipedia-viewer.png';
 import whatsTheWeatherImage from './images/whats-the-weather.png';
 import randomZhuangziQuoteMachineImage from './images/random-zhuangzi-quote-machine.png';
-import palindromeCheckerImage from './images/palindrome-checker.png';
+import caesarsCipherImage from './images/caesars-cipher.png';
 import romanNumeralConverterImage from './images/roman-numeral-converter.png';
+import palindromeCheckerImage from './images/palindrome-checker.png';
 import surveyFormImage from './images/survey-form.png';
 import tributePageForDengXiaopingImage from './images/tribute-page-to-deng-xiaoping.png';
 
@@ -131,10 +132,20 @@ export default [
     github: 'https://github.com/sophyphreak/random-zhuangzi-quote-machine'
   },
   {
+    title: 'caesars-cipher',
+    image: caesarsCipherImage,
+    subtitle: "encode or decode using caesar's cipher",
+    text:
+      'react + create-react-app | netlify | bootstap + reactstrap | prettier | git',
+    demo: 'https://caesars-cipher-converter-andrew-horn.netlify.com',
+    github: 'https://github.com/sophyphreak/caesars-cipher'
+  },
+  {
     title: 'roman-numeral-converter',
     image: romanNumeralConverterImage,
     subtitle: 'convert a number to a roman numeral',
-    text: 'react + create-react-app | netlify | bootstap + reactstrap | git',
+    text:
+      'react + create-react-app | netlify | bootstap + reactstrap | prettier | git',
     demo: 'https://roman-numeral-converter-andrew-horn.netlify.com',
     github: 'https://github.com/sophyphreak/roman-numeral-converter'
   },
@@ -142,7 +153,8 @@ export default [
     title: 'palindrome-checker',
     image: palindromeCheckerImage,
     subtitle: "check if it's a palindrome",
-    text: 'react + create-react-app | netlify | bootstap + reactstrap | git',
+    text:
+      'react + create-react-app | netlify | bootstap + reactstrap | prettier | git',
     demo: 'https://palindrome-checker-andrew-horn.netlify.com',
     github: 'https://github.com/sophyphreak/palindrome-checker'
   },
