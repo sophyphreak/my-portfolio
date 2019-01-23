@@ -12,6 +12,7 @@ import wikipediaViewerImage from './images/wikipedia-viewer.png';
 import whatsTheWeatherImage from './images/whats-the-weather.png';
 import randomZhuangziQuoteMachineImage from './images/random-zhuangzi-quote-machine.png';
 import palindromeCheckerImage from './images/palindrome-checker.png';
+import romanNumeralConverterImage from './images/roman-numeral-converter.png';
 import surveyFormImage from './images/survey-form.png';
 import tributePageForDengXiaopingImage from './images/tribute-page-to-deng-xiaoping.png';
 
@@ -128,6 +129,14 @@ export default [
       'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
     demo: 'https://random-zhuangzi-quote-machine.andrew-horn-portfolio.life/',
     github: 'https://github.com/sophyphreak/random-zhuangzi-quote-machine'
+  },
+  {
+    title: 'roman-numeral-converter',
+    image: romanNumeralConverterImage,
+    subtitle: 'convert a number to a roman numeral',
+    text: 'react + create-react-app | netlify | bootstap + reactstrap | git',
+    demo: 'https://roman-numeral-converter-andrew-horn.netlify.com',
+    github: 'https://github.com/sophyphreak/roman-numeral-converter'
   },
   {
     title: 'palindrome-checker',
