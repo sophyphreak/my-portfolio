@@ -4,11 +4,11 @@ export default [
     list: ['javascript es6', 'css', 'html', 'python 3.6', 'java']
   },
   {
-    techCategory: 'frontend',
+    techCategory: 'front end',
     list: ['react', 'redux', 'webpack', 'babel']
   },
   {
-    techCategory: 'backend',
+    techCategory: 'back end',
     list: ['node', 'express']
   },
   {
