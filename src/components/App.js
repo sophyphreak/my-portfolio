@@ -4,7 +4,7 @@ import AboutMe from './AboutMe/AboutMe';
 import Technologies from './Technologies/Technologies';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
-import '../App.scss';
+import '../scss/style.scss';
 
 class App extends Component {
   render() {
