@@ -1,15 +1,7 @@
-import timestampImage from './images/timestamp.png';
-import metricImperialConverterImage from './images/metric-imperial-converter.png';
-import requestHeaderImage from './images/request-header.png';
-import fileMetadataImage from './images/file-metadata.png';
-import exerciseTrackerImage from './images/exercise-tracker.png';
-import issueTrackerImage from './images/issue-tracker.png';
-import urlShortenerImage from './images/url-shortener.png';
-
 export default [
   {
     title: 'issue-tracker',
-    image: issueTrackerImage,
+    imagePath: 'back-end/issue-tracker.png',
     subtitle: 'has all CRUD operations with REST API',
     text:
       'node + express | body-parser | cors | dotenv | helmet | lodash | moment | mongodb + mongoose | path | chai + chai-http + mocha | husky + lint-staged + prettier | digitalocean + dokku | zombie | git',
@@ -18,7 +10,7 @@ export default [
   },
   {
     title: 'exercise-tracker',
-    image: exerciseTrackerImage,
+    imagePath: 'back-end/exercise-tracker.png',
     subtitle:
       "POST to create new users and their exercises, then GET a list of a user's exercises",
     text:
@@ -28,7 +20,7 @@ export default [
   },
   {
     title: 'url-shortener',
-    image: urlShortenerImage,
+    imagePath: 'back-end/url-shortener.png',
     subtitle: 'shortens urls and redirects',
     text:
       'node + express | body-parser | cors | dotenv | is-valid-http-url | mongodb + mongoose | digitalocean + dokku | git',
@@ -37,7 +29,7 @@ export default [
   },
   {
     title: 'timestamp',
-    image: timestampImage,
+    imagePath: 'back-end/timestamp.png',
     subtitle: 'GET a timestamp',
     text: 'node + express | cors | digitalocean + dokku | git',
     demo: 'https://timestamp.andrew-horn-portfolio.life/',
@@ -45,7 +37,7 @@ export default [
   },
   {
     title: 'metric-imperial-converter',
-    image: metricImperialConverterImage,
+    imagePath: 'back-end/metric-imperial-converter.png',
     subtitle: 'GET unit conversion',
     text:
       'express + node | helmet | lodash | mathjs | expect + mocha + supertest | digitalocean + dokku | git',
@@ -54,7 +46,7 @@ export default [
   },
   {
     title: 'request-header-parser',
-    image: requestHeaderImage,
+    imagePath: 'back-end/request-header-parser.png',
     subtitle: 'GET some information about your header',
     text: 'node + express | digitalocean + dokku | git',
     demo: 'https://request-header.andrew-horn-portfolio.life/',
@@ -62,7 +54,7 @@ export default [
   },
   {
     title: 'file-metadata',
-    image: fileMetadataImage,
+    imagePath: 'back-end/file-metadata.png',
     subtitle: 'POST your file to get some metadata about it back',
     text:
       'node + express | body-parser | lodash | multer | path | digitalocean + dokku | git',

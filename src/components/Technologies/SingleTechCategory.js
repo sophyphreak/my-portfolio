@@ -5,8 +5,8 @@ import SingleTech from './SingleTech';
 const SingleTechCategory = props => (
   <ListGroup className="padding-sm">
     <ListGroupItem color="info">{props.techCategory}</ListGroupItem>
-    {props.list.map(tech => (
-      <SingleTech tech={tech} />
+    {props.list.map((tech, index) => (
+      <SingleTech key={index} tech={tech} />
     ))}
   </ListGroup>
 );

@@ -1,26 +1,7 @@
-import gameOfLifeImage from './images/game-of-life.png';
-import recipeListImage from './images/recipe-list.png';
-import reduxCountersImage from './images/redux-counters.png';
-import drumMachineImage from './images/drum-machine.png';
-import markdownPreviewerImage from './images/markdown-previewer.png';
-import simonImage from './images/simon.png';
-import ticTacToeImage from './images/tic-tac-toe.png';
-import pomodoroClockImage from './images/pomodoro-clock.png';
-import calculatorImage from './images/calculator.png';
-import whosStreamingOnTwitchInage from './images/whos-on-twitch.png';
-import wikipediaViewerImage from './images/wikipedia-viewer.png';
-import whatsTheWeatherImage from './images/whats-the-weather.png';
-import randomZhuangziQuoteMachineImage from './images/random-zhuangzi-quote-machine.png';
-import caesarsCipherImage from './images/caesars-cipher.png';
-import romanNumeralConverterImage from './images/roman-numeral-converter.png';
-import palindromeCheckerImage from './images/palindrome-checker.png';
-import surveyFormImage from './images/survey-form.png';
-import tributePageForDengXiaopingImage from './images/tribute-page-to-deng-xiaoping.png';
-
 export default [
   {
     title: 'game-of-life',
-    image: gameOfLifeImage,
+    imagePath: 'front-end/game-of-life.png',
     subtitle: "an implementation of conway's game of life",
     text: 'react + create-react-app | netlify | bootstrap + reactstrap | git',
     demo: 'https://game-of-life-andrew-horn.netlify.com/',
@@ -28,7 +9,7 @@ export default [
   },
   {
     title: 'recipe-list',
-    image: recipeListImage,
+    imagePath: 'front-end/recipe-list.png',
     subtitle:
       'you can make recipes with crud operations, with the data saved in localhost',
     text: 'react + create-react-app | netlify | bootstrap + reactstrap | git',
@@ -37,7 +18,7 @@ export default [
   },
   {
     title: 'redux-counters',
-    image: reduxCountersImage,
+    imagePath: 'front-end/redux-counters.png',
     subtitle: 'you can have a bunch of counters with a redux state',
     text:
       'react + redux + create-react-app | netlify | bootstrap + reactstrap | prettier | git',
@@ -46,7 +27,7 @@ export default [
   },
   {
     title: 'simon',
-    image: simonImage,
+    imagePath: 'front-end/simon.png',
     subtitle: 'play the classic simon game in your browser',
     text:
       'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
@@ -55,7 +36,7 @@ export default [
   },
   {
     title: 'tic-tac-toe',
-    image: ticTacToeImage,
+    imagePath: 'front-end/tic-tac-toe.png',
     subtitle: 'play the classic simon game in your browser',
     text:
       'react + create-react-app | underscore | digitalocean + dokku | bootstrap + reactstrap | git',
@@ -64,7 +45,7 @@ export default [
   },
   {
     title: 'pomodoro-clock',
-    image: pomodoroClockImage,
+    imagePath: 'front-end/pomodoro-clock.png',
     subtitle: 'manage your busy time better. and take breaks!!',
     text: 'react + create-react-app | netlify | git',
     demo: 'https://pomodoro-clock-andrew-horn.netlify.com/',
@@ -72,7 +53,7 @@ export default [
   },
   {
     title: 'calculator',
-    image: calculatorImage,
+    imagePath: 'front-end/calculator.png',
     subtitle: 'do the numbers',
     text: 'react + create-react-app | netlify | git',
     demo: 'https://calculator-andrew-horn.netlify.com/',
@@ -80,7 +61,7 @@ export default [
   },
   {
     title: 'drum-machine',
-    image: drumMachineImage,
+    imagePath: 'front-end/drum-machine.png',
     subtitle: 'you can play drum sounds with key presses or button clicks',
     text:
       'react + create-react-app | netlify | bootstrap + reactstrap | prettier | git',
@@ -89,7 +70,7 @@ export default [
   },
   {
     title: 'markdown-previewer',
-    image: markdownPreviewerImage,
+    imagePath: 'front-end/markdown-previewer.png',
     subtitle: 'you can write in markdown and instantly see the result',
     text:
       'react + create-react-app | marked | netlify | bootstrap + reactstrap | git',
@@ -98,7 +79,7 @@ export default [
   },
   {
     title: 'whos-streaming-twitch',
-    image: whosStreamingOnTwitchInage,
+    imagePath: 'front-end/whos-on-twitch.png',
     subtitle: "see who's on twich now",
     text: 'react + create-react-app | digitalocean + dokku | git',
     demo: 'https://whos-streaming-twitch.andrew-horn-portfolio.life/',
@@ -106,7 +87,7 @@ export default [
   },
   {
     title: 'wikipedia-viewer',
-    image: wikipediaViewerImage,
+    imagePath: 'front-end/wikipedia-viewer.png',
     subtitle: 'idk something about wikipedia',
     text:
       'react + create-react-app | axios | digitalocean + dokku | bootstrap + reactstrap | react-flip-move | git',
@@ -115,7 +96,7 @@ export default [
   },
   {
     title: 'whats-the-weather-like',
-    image: whatsTheWeatherImage,
+    imagePath: 'front-end/whats-the-weather.png',
     subtitle: "see what the weather's like. may require refresh",
     text:
       'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
@@ -124,7 +105,7 @@ export default [
   },
   {
     title: 'random-zhuangzi-quote-machine',
-    image: randomZhuangziQuoteMachineImage,
+    imagePath: 'front-end/random-zhuangzi-quote-machine.png',
     subtitle: 'get some wisdom from ancient wise words',
     text: 'react + create-react-app | netlify | bootstrap + reactstrap | git',
     demo: 'https://random-zhuangzi-quote-machine-andrew-horn.netlify.com/',
@@ -132,7 +113,7 @@ export default [
   },
   {
     title: 'caesars-cipher',
-    image: caesarsCipherImage,
+    imagePath: 'front-end/caesars-cipher.png',
     subtitle: "encode or decode using caesar's cipher",
     text:
       'react + create-react-app | netlify | bootstap + reactstrap | prettier | git',
@@ -141,7 +122,7 @@ export default [
   },
   {
     title: 'roman-numeral-converter',
-    image: romanNumeralConverterImage,
+    imagePath: 'front-end/roman-numeral-converter.png',
     subtitle: 'convert a number to a roman numeral',
     text:
       'react + create-react-app | netlify | bootstap + reactstrap | prettier | git',
@@ -150,7 +131,7 @@ export default [
   },
   {
     title: 'palindrome-checker',
-    image: palindromeCheckerImage,
+    imagePath: 'front-end/palindrome-checker.png',
     subtitle: "check if it's a palindrome",
     text:
       'react + create-react-app | netlify | bootstap + reactstrap | prettier | git',
@@ -159,7 +140,7 @@ export default [
   },
   {
     title: 'survey-form',
-    image: surveyFormImage,
+    imagePath: 'front-end/survey-form.png',
     subtitle: 'see my test creating a static form site with gatsby and formik',
     text: 'react + gatsby | formik + yup | netlify | prettier | git',
     demo: 'https://survey-form-andrew-horn.netlify.com/',
@@ -167,7 +148,7 @@ export default [
   },
   {
     title: 'tribute-page-for-deng-xiaoping',
-    image: tributePageForDengXiaopingImage,
+    imagePath: 'front-end/tribute-page-to-deng-xiaoping.png',
     subtitle: "learn about communist china's greatest leader",
     text: 'html + css | digitalocean + dokku | git',
     demo: 'https://tribute-page-for-deng-xiaoping.andrew-horn-portfolio.life/',

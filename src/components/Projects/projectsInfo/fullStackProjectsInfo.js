@@ -1,10 +1,7 @@
-import ebookManagerAppImage from './images/ebook-manager-app.png';
-import cookingMeasureConverterImage from './images/cooking-measure-converter.png';
-
 export default [
   {
     title: 'cooking-measure-converter',
-    image: cookingMeasureConverterImage,
+    imagePath: 'full-stack/cooking-measure-converter.png',
     subtitle:
       'helps you convert metric to imperial measures and vice versa for cooking.',
     text:
@@ -14,7 +11,7 @@ export default [
   },
   {
     title: 'ebook-manager-app',
-    image: ebookManagerAppImage,
+    imagePath: 'full-stack/ebook-manager-app.png',
     subtitle: 'helps you publish ebooks on amazon',
     text:
       'react + react-router + create-react-app | sass | node + express | nodemailer | webpack + babel | digitalocean + dokku | bootstrap + reactstrap | jest + enzyme | axios | react-dates | quill + react-quill | history | js-beautify | moment | concurrently | prettier + husky + link-staged | git',
