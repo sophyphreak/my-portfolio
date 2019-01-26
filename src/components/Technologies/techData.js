@@ -1,11 +1,11 @@
 export default [
   {
-    techCategory: 'langauges',
+    techCategory: 'languages',
     list: ['javascript es6', 'css', 'html', 'python 3.6', 'java']
   },
   {
     techCategory: 'front end',
-    list: ['react', 'redux', 'webpack', 'babel']
+    list: ['react', 'redux', 'webpack', 'babel', 'graphql']
   },
   {
     techCategory: 'back end',
