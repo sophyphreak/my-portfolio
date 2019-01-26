@@ -2,5 +2,4 @@ TODOS
 
 1) migrate all front end projects to netlify
 2) decrease size of digitalocean droplet to save money
-3) change root page to gatsby
-4) begin changing all projects to gatsby(?)
+3) begin changing all projects to gatsby(?)
