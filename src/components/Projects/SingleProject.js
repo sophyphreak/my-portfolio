@@ -27,7 +27,9 @@ const SingleProject = props => (
       <CardBody>
         <CardSubtitle>{props.subtitle}</CardSubtitle>
         <hr />
-        <CardText>{props.text}</CardText>
+        <CardText>
+          <strong>{props.text}</strong>
+        </CardText>
         <div className="link-buttons__container">
           <Button color="primary" href={props.demo} target="_blank">
             see demo
