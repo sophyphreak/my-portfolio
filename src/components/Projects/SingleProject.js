@@ -11,30 +11,28 @@ import {
   Col
 } from 'reactstrap';
 
-const SingleProject = props => (
+const SingleProject = ({ title, demo, image, subtitle, text, github }) => (
   <Col lg="4" md="6" sm="12" className="padding-sm">
     <Card>
       <CardBody>
         <CardTitle style={{ fontFamily: 'monospace' }}>
-          <h3>{props.title}</h3>
+          <h3>{title}</h3>
         </CardTitle>
       </CardBody>
-      <a href={props.demo} target="_blank" rel="noopener noreferrer">
-        {props.image.node && (
-          <Img fluid={props.image.node.childImageSharp.fluid} />
-        )}
+      <a href={demo} target="_blank" rel="noopener noreferrer">
+        <Img fluid={image.node.childImageSharp.fluid} />
       </a>
       <CardBody>
-        <CardSubtitle>{props.subtitle}</CardSubtitle>
+        <CardSubtitle>{subtitle}</CardSubtitle>
         <hr />
         <CardText>
-          <strong>{props.text}</strong>
+          <strong>{text}</strong>
         </CardText>
         <div className="link-buttons__container">
-          <Button color="primary" href={props.demo} target="_blank">
+          <Button color="primary" href={demo} target="_blank">
             see demo
           </Button>
-          <Button color="primary" href={props.github} target="_blank">
+          <Button color="primary" href={github} target="_blank">
             github repo
           </Button>
         </div>
