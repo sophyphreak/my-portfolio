@@ -13,10 +13,11 @@ import {
 
 const SingleProject = props => (
   <Col lg="4" md="6" sm="12" className="padding-sm">
-    {console.log(props.title)}
     <Card>
       <CardBody>
-        <CardTitle>{props.title}</CardTitle>
+        <CardTitle style={{ fontFamily: 'monospace' }}>
+          <h3>{props.title}</h3>
+        </CardTitle>
       </CardBody>
       <a href={props.demo} target="_blank" rel="noopener noreferrer">
         {props.image.node && (
