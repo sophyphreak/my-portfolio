@@ -16,8 +16,10 @@ import romanNumeralConverter from './individualProjects/romanNumeralConverter';
 import palindromeChecker from './individualProjects/palindromeChecker';
 import surveyForm from './individualProjects/surveyForm';
 import tributePageForDengXiaoping from './individualProjects/tributePageForDengXiaoping';
+import thisPortfolio from './individualProjects/thisPortfolio';
 
 export default [
+  thisPortfolio,
   gameOfLife,
   recipeList,
   reduxCounters,
