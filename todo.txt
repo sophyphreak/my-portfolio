@@ -1,5 +1,8 @@
 TODOS
 
-1) migrate all front end projects to netlify
-2) decrease size of digitalocean droplet to save money
-3) begin changing all projects to gatsby(?)
+1) abstract out project info objects into separate folders, all leading to centralized array file
+2) add this-portfolio to front end projects
+3) move cooking-measure-converter to netlify + to front end section
+4) migrate all front end projects to netlify
+5) decrease size of digitalocean droplet to save money
+6) begin changing all projects to gatsby(?)

@@ -1,9 +1,9 @@
 import React from 'react';
 import SingleProject from './SingleProject';
 import { StaticQuery, graphql } from 'gatsby';
-import fullStackProjectsInfo from './projectsInfo/fullStackProjectsInfo';
-import frontEndProjectsInfo from './projectsInfo/frontEndProjectsInfo';
-import apiProjectsInfo from './projectsInfo/apiProjectsInfo';
+import fullStackProjectsInfo from './projectsInfo/fullStackProjects/fullStackProjects';
+import frontEndProjectsInfo from './projectsInfo/frontEndProjects/frontEndProjects';
+import apiProjectsInfo from './projectsInfo/apiProjects/apiProjects';
 
 const Projects = ({ data }) => {
   const images = data.allFile.edges;
