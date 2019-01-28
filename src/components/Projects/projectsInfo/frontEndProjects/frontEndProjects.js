@@ -18,6 +18,7 @@ import surveyForm from './individualProjects/surveyForm';
 import tributePageForDengXiaoping from './individualProjects/tributePageForDengXiaoping';
 import thisPortfolio from './individualProjects/thisPortfolio';
 import telephoneNumbersValidator from './individualProjects/telephoneNumbersValidator';
+import cashRegister from './individualProjects/cashRegister';
 
 export default [
   thisPortfolio,
@@ -34,6 +35,7 @@ export default [
   wikipediaViewer,
   whatsTheWeatherLike,
   randomZhuangziQuoteMachine,
+  cashRegister,
   telephoneNumbersValidator,
   caesarsCipher,
   romanNumeralConverter,
