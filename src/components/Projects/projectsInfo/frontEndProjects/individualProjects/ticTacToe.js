@@ -4,6 +4,6 @@ export default {
   subtitle: 'play the classic simon game in your browser',
   text:
     'react + create-react-app | underscore | digitalocean + dokku | bootstrap + reactstrap | git',
-  demo: 'https://tic-tac-toe.andrew-horn-portfolio.life/',
+  demo: 'https://tic-tac-toe-andrew-horn.netlify.com/',
   github: 'https://github.com/sophyphreak/tic-tac-toe'
 };

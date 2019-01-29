@@ -4,6 +4,6 @@ export default {
   subtitle: "see what the weather's like. may require refresh",
   text:
     'react + create-react-app | digitalocean + dokku | bootstrap + reactstrap | git',
-  demo: 'https://whats-the-weather-like.andrew-horn-portfolio.life/',
+  demo: 'https://whats-the-weather-like-andrew-horn.netlify.com',
   github: 'https://github.com/sophyphreak/whats-the-weather-like'
 };

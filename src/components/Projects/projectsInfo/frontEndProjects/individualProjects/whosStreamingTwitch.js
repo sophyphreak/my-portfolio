@@ -3,6 +3,6 @@ export default {
   imagePath: 'front-end/whos-on-twitch.png',
   subtitle: "see who's on twich now",
   text: 'react + create-react-app | digitalocean + dokku | git',
-  demo: 'https://whos-streaming-twitch.andrew-horn-portfolio.life/',
+  demo: 'https://whos-streaming-twitch.andrew-horn.netlify.com/',
   github: 'https://github.com/sophyphreak/whos-streaming-twitch'
 };
