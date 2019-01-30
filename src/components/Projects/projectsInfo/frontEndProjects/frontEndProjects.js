@@ -19,6 +19,7 @@ import tributePageForDengXiaoping from './individualProjects/tributePageForDengX
 import thisPortfolio from './individualProjects/thisPortfolio';
 import telephoneNumbersValidator from './individualProjects/telephoneNumbersValidator';
 import cashRegister from './individualProjects/cashRegister';
+import productLandingPage from './individualProjects/productLandingPage';
 
 export default [
   thisPortfolio,
@@ -40,6 +41,7 @@ export default [
   caesarsCipher,
   romanNumeralConverter,
   palindromeChecker,
+  productLandingPage,
   surveyForm,
   tributePageForDengXiaoping
 ];
