@@ -20,6 +20,7 @@ import thisPortfolio from './individualProjects/thisPortfolio';
 import telephoneNumbersValidator from './individualProjects/telephoneNumbersValidator';
 import cashRegister from './individualProjects/cashRegister';
 import productLandingPage from './individualProjects/productLandingPage';
+import technicalDocumentationPage from './individualProjects/technicalDocumentationPage';
 
 export default [
   thisPortfolio,
@@ -42,6 +43,7 @@ export default [
   romanNumeralConverter,
   palindromeChecker,
   productLandingPage,
+  technicalDocumentationPage,
   surveyForm,
   tributePageForDengXiaoping
 ];
