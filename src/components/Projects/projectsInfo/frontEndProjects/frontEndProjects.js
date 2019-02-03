@@ -11,19 +11,18 @@ import whosStreamingTwitch from './individualProjects/whosStreamingTwitch';
 import wikipediaViewer from './individualProjects/wikipediaViewer';
 import whatsTheWeatherLike from './individualProjects/whatsTheWeatherLike';
 import randomZhuangziQuoteMachine from './individualProjects/randomZhuangziQuoteMachine';
+import cashRegister from './individualProjects/cashRegister';
+import telephoneNumbersValidator from './individualProjects/telephoneNumbersValidator';
 import caesarsCipher from './individualProjects/caesarsCipher';
 import romanNumeralConverter from './individualProjects/romanNumeralConverter';
 import palindromeChecker from './individualProjects/palindromeChecker';
+import thisPortfolio from './individualProjects/thisPortfolio';
+import technicalDocumentationPage from './individualProjects/technicalDocumentationPage';
+import productLandingPage from './individualProjects/productLandingPage';
 import surveyForm from './individualProjects/surveyForm';
 import tributePageForDengXiaoping from './individualProjects/tributePageForDengXiaoping';
-import thisPortfolio from './individualProjects/thisPortfolio';
-import telephoneNumbersValidator from './individualProjects/telephoneNumbersValidator';
-import cashRegister from './individualProjects/cashRegister';
-import productLandingPage from './individualProjects/productLandingPage';
-import technicalDocumentationPage from './individualProjects/technicalDocumentationPage';
 
 export default [
-  thisPortfolio,
   gameOfLife,
   recipeList,
   reduxCounters,
@@ -42,8 +41,9 @@ export default [
   caesarsCipher,
   romanNumeralConverter,
   palindromeChecker,
-  productLandingPage,
+  thisPortfolio,
   technicalDocumentationPage,
+  productLandingPage,
   surveyForm,
   tributePageForDengXiaoping
 ];
