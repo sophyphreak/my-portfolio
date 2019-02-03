@@ -7,9 +7,6 @@ import pomodoroClock from './individualProjects/pomodoroClock';
 import calculator from './individualProjects/calculator';
 import drumMachine from './individualProjects/drumMachine';
 import markdownPreviewer from './individualProjects/markdownPreviewer';
-import whosStreamingTwitch from './individualProjects/whosStreamingTwitch';
-import wikipediaViewer from './individualProjects/wikipediaViewer';
-import whatsTheWeatherLike from './individualProjects/whatsTheWeatherLike';
 import randomZhuangziQuoteMachine from './individualProjects/randomZhuangziQuoteMachine';
 import cashRegister from './individualProjects/cashRegister';
 import telephoneNumbersValidator from './individualProjects/telephoneNumbersValidator';
@@ -21,6 +18,9 @@ import technicalDocumentationPage from './individualProjects/technicalDocumentat
 import productLandingPage from './individualProjects/productLandingPage';
 import surveyForm from './individualProjects/surveyForm';
 import tributePageForDengXiaoping from './individualProjects/tributePageForDengXiaoping';
+import whosStreamingTwitch from './individualProjects/whosStreamingTwitch';
+import wikipediaViewer from './individualProjects/wikipediaViewer';
+import whatsTheWeatherLike from './individualProjects/whatsTheWeatherLike';
 
 export default [
   gameOfLife,
@@ -32,9 +32,6 @@ export default [
   calculator,
   drumMachine,
   markdownPreviewer,
-  whosStreamingTwitch,
-  wikipediaViewer,
-  whatsTheWeatherLike,
   randomZhuangziQuoteMachine,
   cashRegister,
   telephoneNumbersValidator,
@@ -45,5 +42,8 @@ export default [
   technicalDocumentationPage,
   productLandingPage,
   surveyForm,
-  tributePageForDengXiaoping
+  tributePageForDengXiaoping,
+  whosStreamingTwitch,
+  wikipediaViewer,
+  whatsTheWeatherLike
 ];
