@@ -1,26 +1,18 @@
 import React from 'react';
 import SingleProject from './SingleProject';
 import { StaticQuery, graphql } from 'gatsby';
-import fullStackProjectsInfo from './projectsInfo/fullStackProjects/fullStackProjects';
+// import fullStackProjectsInfo from './projectsInfo/fullStackProjects/fullStackProjects';
 import frontEndProjectsInfo from './projectsInfo/frontEndProjects/frontEndProjects';
 import apiProjectsInfo from './projectsInfo/apiProjects/apiProjects';
+
+// create a data structure that just matches the front of the relative folder system
+// so that i can sort the images into their respective components
+// because as per the docs, you can't put variables into a staticquery sadly. shoulda remembered that.
 
 const Projects = ({ data }) => {
   const images = data.allFile.edges;
   return (
     <div>
-      <h1 style={{ textAlign: 'center' }}>full stack projects</h1>
-      <section
-        id="full-stack-projects"
-        className="full-stack-projects__container"
-      >
-        {fullStackProjectsInfo.map((projectInfo, index) => {
-          const image = images.find(
-            img => img.node.relativePath === projectInfo.imagePath
-          );
-          return <SingleProject key={index} image={image} {...projectInfo} />;
-        })}
-      </section>
       <h1 style={{ textAlign: 'center' }}>front end projects</h1>
       <section
         id="front-end-projects"
