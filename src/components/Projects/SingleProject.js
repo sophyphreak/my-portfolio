@@ -3,7 +3,6 @@ import Img from 'gatsby-image';
 import {
   Button,
   Card,
-  // CardImg,
   CardText,
   CardBody,
   CardTitle,

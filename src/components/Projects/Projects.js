@@ -1,26 +1,28 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
-import FullStack from './FullStack/FullStack';
-import FrontEnd from './FrontEnd/FrontEnd';
-import BackEnd from './BackEnd/BackEnd';
+import ReactApps from './ReactApps/ReactApps';
+import InformationSecurityAndQualityAssurance from './InformationSecurityAndQualityAssurance/InformationSecurityAndQualityAssurance';
+import ApisAndMicroservices from './ApisAndMicroservices/ApisAndMicroservices';
+import JavascriptAlgorithmsAndDataStructures from './JavascriptAlgorithmsAndDataStructures/JavascriptAlgorithmsAndDataStructures';
+import ResponsiveWebDesign from './ResponsiveWebDesign/ResponsiveWebDesign';
+import ThirdPartyApis from './ThirdPartyApis/ThirdPartyApis';
+import createImagesObject from './createImagesObject';
 
 const Projects = ({ data }) => {
-  const images = {
-    backEnd: [],
-    frontEnd: [],
-    fullStack: []
-  };
-  data.allFile.edges.forEach(image => {
-    const path = image.node.relativePath;
-    if (/back-end/.test(path)) images.backEnd.push(image);
-    if (/front-end/.test(path)) images.frontEnd.push(image);
-    if (/full-stack/.test(path)) images.fullStack.push(image);
-  });
+  const images = createImagesObject(data);
+  console.log(images);
   return (
     <div>
-      <FullStack images={images.fullStack} />
-      <FrontEnd images={images.frontEnd} />
-      <BackEnd images={images.backEnd} />
+      <ReactApps images={images.reactApps} />
+      <InformationSecurityAndQualityAssurance
+        images={images.informationSecurityAndQualityAssurance}
+      />
+      <ApisAndMicroservices images={images.apisAndMicroservices} />
+      <JavascriptAlgorithmsAndDataStructures
+        images={images.javascriptAlgorithmsAndDataStructures}
+      />
+      <ResponsiveWebDesign images={images.responsiveWebDesign} />
+      <ThirdPartyApis images={images.thirdPartyApis} />
     </div>
   );
 };
