@@ -37,7 +37,9 @@ export default class Navigation extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="#about-me">about me</NavLink>
+                <NavLink onClick={this.toggle} href="#about-me">
+                  about me
+                </NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
@@ -45,17 +47,25 @@ export default class Navigation extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu>
                   {sectionData.map((section, index) => (
-                    <DropdownItem href={section.link} key={index}>
+                    <DropdownItem
+                      onClick={this.toggle}
+                      href={section.link}
+                      key={index}
+                    >
                       {section.name}
                     </DropdownItem>
                   ))}
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
-                <NavLink href="#technologies">technologies</NavLink>
+                <NavLink onClick={this.toggle} href="#technologies">
+                  technologies
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#contact">contact</NavLink>
+                <NavLink onClick={this.toggle} href="#contact">
+                  contact
+                </NavLink>
               </NavItem>
             </Nav>
           </Collapse>
