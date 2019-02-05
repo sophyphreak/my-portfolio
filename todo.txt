@@ -1,7 +1,0 @@
-TODOS
-
-1) add this-portfolio to front end projects
-2) move cooking-measure-converter to netlify + to front end section
-3) migrate all front end projects to netlify
-4) decrease size of digitalocean droplet to save money
-5) begin changing all projects to gatsby(?)
