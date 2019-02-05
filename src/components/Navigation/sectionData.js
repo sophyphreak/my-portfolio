@@ -4,7 +4,7 @@ export default [
     link: '#react-apps'
   },
   {
-    name: 'information security and quality assurance',
+    name: 'information security',
     link: '#information-security-and-quality-assurance'
   },
   {
@@ -12,7 +12,7 @@ export default [
     link: '#apis-and-microservices'
   },
   {
-    name: 'javascript algorithms and data structures',
+    name: 'javascript algorithms',
     link: '#javascript-algorithms-and-data-structures'
   },
   {
