@@ -48,15 +48,19 @@ export default [
     list: ['formik', 'yup']
   },
   {
-    techCategory: 'static site generator',
+    techCategory: 'static site',
     list: ['gatsby']
   },
   {
-    techCategory: 'clean code tools',
+    techCategory: 'clean code',
     list: ['prettier', 'eslint', 'husky', 'pretty-quick']
   },
   {
-    techCategory: 'others',
-    list: ['axios', 'moment']
+    techCategory: 'ajax',
+    list: ['axios']
+  },
+  {
+    techCategory: 'time',
+    list: ['moment']
   }
 ];
