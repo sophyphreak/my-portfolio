@@ -7,6 +7,9 @@ const SingleSection = (
   { images, sectionId, title, subtitle, projectList } // props includes { images, etc}
 ) => (
   <section id={sectionId}>
+    <br />
+    <br />
+    <br />
     <h1 style={centered}>{title}</h1>
     <h3 style={centered}>{subtitle}</h3>
     <div className="projects-container">

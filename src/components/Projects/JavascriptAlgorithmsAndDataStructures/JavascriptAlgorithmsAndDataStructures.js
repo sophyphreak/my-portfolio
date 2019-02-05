@@ -4,7 +4,7 @@ import projectList from './projectList';
 
 const JavascriptAlgorithmsAndDataStructures = ({ images }) => (
   <SingleSection
-    title="javascript algorithms and datastructures"
+    title="javascript algorithms and data structures"
     subtitle="built in react"
     projectList={projectList}
     sectionId="javascript-algorithms-and-data-structures"

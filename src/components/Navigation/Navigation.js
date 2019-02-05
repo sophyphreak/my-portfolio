@@ -12,6 +12,7 @@ import {
   DropdownMenu,
   DropdownItem
 } from 'reactstrap';
+import sectionData from './sectionData';
 
 export default class Navigation extends React.Component {
   constructor(props) {
@@ -43,13 +44,11 @@ export default class Navigation extends React.Component {
                   projects
                 </DropdownToggle>
                 <DropdownMenu>
-                  <DropdownItem href="#full-stack-projects">
-                    full stack projects
-                  </DropdownItem>
-                  <DropdownItem href="#front-end-projects">
-                    front end projects
-                  </DropdownItem>
-                  <DropdownItem href="#api-projects">api projects</DropdownItem>
+                  {sectionData.map((section, index) => (
+                    <DropdownItem href={section.link} key={index}>
+                      {section.name}
+                    </DropdownItem>
+                  ))}
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
