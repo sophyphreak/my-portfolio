@@ -10,7 +10,6 @@ import createImagesObject from './createImagesObject';
 
 const Projects = ({ data }) => {
   const images = createImagesObject(data);
-  console.log(images);
   return (
     <div>
       <ReactApps images={images.reactApps} />

@@ -27,7 +27,7 @@ const SingleProject = ({ title, demo, image, subtitle, text, github }) => (
         <CardText>
           <strong>{text}</strong>
         </CardText>
-        <div className="link-buttons__container">
+        <div className="link-buttons-container">
           <Button color="primary" href={demo} target="_blank">
             see demo
           </Button>
