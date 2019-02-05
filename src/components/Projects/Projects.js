@@ -1,39 +1,26 @@
 import React from 'react';
-import SingleProject from './SingleProject';
 import { StaticQuery, graphql } from 'gatsby';
-// import fullStackProjectsInfo from './projectsInfo/fullStackProjects/fullStackProjects';
-import frontEndProjectsInfo from './projectsInfo/frontEndProjects/frontEndProjects';
-import apiProjectsInfo from './projectsInfo/apiProjects/apiProjects';
-
-// create a data structure that just matches the front of the relative folder system
-// so that i can sort the images into their respective components
-// because as per the docs, you can't put variables into a staticquery sadly. shoulda remembered that.
+import FullStack from './FullStack/FullStack';
+import FrontEnd from './FrontEnd/FrontEnd';
+import BackEnd from './BackEnd/BackEnd';
 
 const Projects = ({ data }) => {
-  const images = data.allFile.edges;
+  const images = {
+    backEnd: [],
+    frontEnd: [],
+    fullStack: []
+  };
+  data.allFile.edges.forEach(image => {
+    const path = image.node.relativePath;
+    if (/back-end/.test(path)) images.backEnd.push(image);
+    if (/front-end/.test(path)) images.frontEnd.push(image);
+    if (/full-stack/.test(path)) images.fullStack.push(image);
+  });
   return (
     <div>
-      <h1 style={{ textAlign: 'center' }}>front end projects</h1>
-      <section
-        id="front-end-projects"
-        className="front-end-projects__container"
-      >
-        {frontEndProjectsInfo.map((projectInfo, index) => {
-          const image = images.find(
-            img => img.node.relativePath === projectInfo.imagePath
-          );
-          return <SingleProject key={index} image={image} {...projectInfo} />;
-        })}
-      </section>
-      <h1 style={{ textAlign: 'center' }}>rest api projects</h1>
-      <section id="api-projects" className="api-projects__container">
-        {apiProjectsInfo.map((projectInfo, index) => {
-          const image = images.find(
-            img => img.node.relativePath === projectInfo.imagePath
-          );
-          return <SingleProject key={index} image={image} {...projectInfo} />;
-        })}
-      </section>
+      <FullStack images={images.fullStack} />
+      <FrontEnd images={images.frontEnd} />
+      <BackEnd images={images.backEnd} />
     </div>
   );
 };
