@@ -1,8 +1,6 @@
 import React from 'react';
 import SingleProject from './SingleProject';
 
-const centered = { textAlign: 'center' };
-
 const SingleSection = (
   { images, sectionId, title, subtitle, projectList } // props includes { images, etc}
 ) => (
@@ -10,8 +8,8 @@ const SingleSection = (
     <br />
     <br />
     <br />
-    <h1 style={centered}>{title}</h1>
-    <h3 style={centered}>{subtitle}</h3>
+    <h1 className="project-title">{title}</h1>
+    <h3 className="project-subtitle">{subtitle}</h3>
     <div className="projects-container">
       {projectList.map((project, index) => {
         const image = images.find(
