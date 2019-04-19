@@ -1,3 +1,4 @@
+import eogReactMap from './individualProjects/eogReactMap';
 import cookingMeasureConverter from './individualProjects/cookingMeasureConverter';
 import ebookManagerApp from './individualProjects/ebookManagerApp';
 import gameOfLife from './individualProjects/gameOfLife';
@@ -12,6 +13,7 @@ import markdownPreviewer from './individualProjects/markdownPreviewer';
 import randomZhuangziQuoteMachine from './individualProjects/randomZhuangziQuoteMachine';
 
 export default [
+  eogReactMap,
   cookingMeasureConverter,
   ebookManagerApp,
   gameOfLife,
