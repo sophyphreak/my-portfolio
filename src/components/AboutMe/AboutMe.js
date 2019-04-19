@@ -17,7 +17,7 @@ const AboutMe = () => {
           <br />
           <br />
           <h3>
-            i'm andrew horn, a react developer. i speak english and chinese.
+            i'm andrew horn, a react developer. i speak english and chinese
           </h3>
           <h3>中文也会说也会写</h3>
           <hr />
@@ -32,7 +32,6 @@ const AboutMe = () => {
             >
               old-fashioned resume
             </a>
-            .
           </h3>
         </div>
       </Jumbotron>
