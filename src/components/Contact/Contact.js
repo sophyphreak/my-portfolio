@@ -1,7 +1,11 @@
 import React from 'react';
 import { Button } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/fontawesome-free-brands';
+import {
+  faGithub,
+  faLinkedin,
+  faFreeCodeCamp
+} from '@fortawesome/fontawesome-free-brands';
 
 const Contact = () => (
   <section id="contact">
@@ -15,6 +19,12 @@ const Contact = () => (
         href="https://www.linkedin.com/in/daxuepl-ah/"
       >
         <FontAwesomeIcon icon={faLinkedin} /> linkedIn
+      </Button>
+      <Button
+        className="contact__button"
+        href="https://www.freecodecamp.org/sophyphreak"
+      >
+        <FontAwesomeIcon icon={faFreeCodeCamp} /> freeCodeCamp
       </Button>
     </div>
   </section>
