@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navigation from './Navigation/Navigation';
 import AboutMe from './AboutMe/AboutMe';
 import Projects from './Projects/Projects';
-import Contact from './Contact/Contact';
+import Online from './Online/Online';
 import '../scss/style.scss';
 
 class App extends Component {
@@ -12,7 +12,7 @@ class App extends Component {
         <Navigation />
         <AboutMe />
         <Projects />
-        <Contact />
+        <Online />
       </div>
     );
   }

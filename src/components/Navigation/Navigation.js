@@ -49,8 +49,8 @@ export default class Navigation extends React.Component {
                 </NavItem>
               ))}
               <NavItem>
-                <NavLink onClick={this.toggle} href="#contact">
-                  contact
+                <NavLink onClick={this.toggle} href="#online">
+                  online
                 </NavLink>
               </NavItem>
             </Nav>

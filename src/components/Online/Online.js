@@ -7,21 +7,21 @@ import {
   faFreeCodeCamp
 } from '@fortawesome/fontawesome-free-brands';
 
-const Contact = () => (
-  <section id="contact">
-    <h1 className="contact__header">contact me</h1>
-    <div className="contact__container">
-      <Button className="contact__button" href="https://github.com/sophyphreak">
+const Online = () => (
+  <section id="online">
+    <h1 className="online__header">me online</h1>
+    <div className="online__container">
+      <Button className="online__button" href="https://github.com/sophyphreak">
         <FontAwesomeIcon icon={faGithub} /> github
       </Button>
       <Button
-        className="contact__button"
+        className="online__button"
         href="https://www.linkedin.com/in/daxuepl-ah/"
       >
         <FontAwesomeIcon icon={faLinkedin} /> linkedIn
       </Button>
       <Button
-        className="contact__button"
+        className="online__button"
         href="https://www.freecodecamp.org/sophyphreak"
       >
         <FontAwesomeIcon icon={faFreeCodeCamp} /> freeCodeCamp
@@ -30,4 +30,4 @@ const Contact = () => (
   </section>
 );
 
-export default Contact;
+export default Online;
