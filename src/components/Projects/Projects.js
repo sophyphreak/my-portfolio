@@ -1,11 +1,7 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import ReactApps from './ReactApps/ReactApps';
-import InformationSecurityAndQualityAssurance from './InformationSecurityAndQualityAssurance/InformationSecurityAndQualityAssurance';
-import ApisAndMicroservices from './ApisAndMicroservices/ApisAndMicroservices';
-import JavascriptAlgorithmsAndDataStructures from './JavascriptAlgorithmsAndDataStructures/JavascriptAlgorithmsAndDataStructures';
-import ResponsiveWebDesign from './ResponsiveWebDesign/ResponsiveWebDesign';
-import ThirdPartyApis from './ThirdPartyApis/ThirdPartyApis';
+import RestApis from './RestApis/RestApis';
 import createImagesObject from './createImagesObject';
 
 const Projects = ({ data }) => {
@@ -13,15 +9,7 @@ const Projects = ({ data }) => {
   return (
     <div>
       <ReactApps images={images.reactApps} />
-      <InformationSecurityAndQualityAssurance
-        images={images.informationSecurityAndQualityAssurance}
-      />
-      <ApisAndMicroservices images={images.apisAndMicroservices} />
-      <JavascriptAlgorithmsAndDataStructures
-        images={images.javascriptAlgorithmsAndDataStructures}
-      />
-      <ResponsiveWebDesign images={images.responsiveWebDesign} />
-      <ThirdPartyApis images={images.thirdPartyApis} />
+      <RestApis images={images.restApis} />
     </div>
   );
 };

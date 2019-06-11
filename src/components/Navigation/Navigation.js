@@ -6,11 +6,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem
+  NavLink
 } from 'reactstrap';
 import sectionData from './sectionData';
 
@@ -41,27 +37,17 @@ export default class Navigation extends React.Component {
                   about me
                 </NavLink>
               </NavItem>
-              <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
-                  projects
-                </DropdownToggle>
-                <DropdownMenu>
-                  {sectionData.map((section, index) => (
-                    <DropdownItem
-                      onClick={this.toggle}
-                      href={section.link}
-                      key={index}
-                    >
-                      {section.name}
-                    </DropdownItem>
-                  ))}
-                </DropdownMenu>
-              </UncontrolledDropdown>
-              <NavItem>
-                <NavLink onClick={this.toggle} href="#technologies">
-                  technologies
-                </NavLink>
-              </NavItem>
+              {sectionData.map((section, index) => (
+                <NavItem>
+                  <NavLink
+                    onClick={this.toggle}
+                    href={section.link}
+                    key={index}
+                  >
+                    {section.name}
+                  </NavLink>
+                </NavItem>
+              ))}
               <NavItem>
                 <NavLink onClick={this.toggle} href="#contact">
                   contact

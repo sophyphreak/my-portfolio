@@ -6,20 +6,8 @@ const createImagesObject = data => {
       case 'reactApps':
         images.reactApps.push(image);
         break;
-      case 'apisAndMicroservices':
-        images.apisAndMicroservices.push(image);
-        break;
-      case 'informationSecurityAndQualityAssurance':
-        images.informationSecurityAndQualityAssurance.push(image);
-        break;
-      case 'javascriptAlgorithmsAndDataStructures':
-        images.javascriptAlgorithmsAndDataStructures.push(image);
-        break;
-      case 'responsiveWebDesign':
-        images.responsiveWebDesign.push(image);
-        break;
-      case 'thirdPartyApis':
-        images.thirdPartyApis.push(image);
+      case 'restApis':
+        images.restApis.push(image);
         break;
       default:
         break;
@@ -32,11 +20,7 @@ const getContainingFolder = relativePath => relativePath.split('/')[0];
 
 const initializeImages = () => ({
   reactApps: [],
-  informationSecurityAndQualityAssurance: [],
-  apisAndMicroservices: [],
-  javascriptAlgorithmsAndDataStructures: [],
-  responsiveWebDesign: [],
-  thirdPartyApis: []
+  restApis: []
 });
 
 export default createImagesObject;
