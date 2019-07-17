@@ -5,9 +5,9 @@ import cookingMeasureConverter from './individualProjects/cookingMeasureConverte
 import ebookManagerApp from './individualProjects/ebookManagerApp';
 import eogReactMap from './individualProjects/eogReactMap';
 import gameOfLife from './individualProjects/gameOfLife';
-import thisPortfolio from './individualProjects/thisPortfolio';
 import marsPhotoSeachApp from './individualProjects/marsPhotoSeachApp';
 import meteoriteExplorerApp from './individualProjects/meteoriteExplorerApp';
+import thisPortfolio from './individualProjects/thisPortfolio';
 import whosStreamingTwitch from './individualProjects/whosStreamingTwitch';
 import wikipediaViewer from './individualProjects/wikipediaViewer';
 import technicalDocumentationPage from './individualProjects/technicalDocumentationPage';
@@ -37,9 +37,9 @@ export default [
   ebookManagerApp,
   eogReactMap,
   gameOfLife,
-  thisPortfolio,
   marsPhotoSeachApp,
   meteoriteExplorerApp,
+  thisPortfolio,
   whosStreamingTwitch,
   wikipediaViewer,
   technicalDocumentationPage,
