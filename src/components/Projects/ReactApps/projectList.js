@@ -1,3 +1,5 @@
+import homelessInHouston from './individualProjects/homelessInHouston';
+import wordListApp from './individualProjects/wordListApp';
 import kadampaSignInForm from './individualProjects/kadampaSignInForm';
 import cookingMeasureConverter from './individualProjects/cookingMeasureConverter';
 import ebookManagerApp from './individualProjects/ebookManagerApp';
@@ -27,6 +29,8 @@ import productLandingPage from './individualProjects/productLandingPage';
 import tributePageForDengXiaoping from './individualProjects/tributePageForDengXiaoping';
 
 export default [
+  homelessInHouston,
+  wordListApp,
   kadampaSignInForm,
   cookingMeasureConverter,
   ebookManagerApp,
