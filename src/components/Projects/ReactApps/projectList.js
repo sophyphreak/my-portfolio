@@ -6,6 +6,7 @@ import ebookManagerApp from './individualProjects/ebookManagerApp';
 import eogReactMap from './individualProjects/eogReactMap';
 import gameOfLife from './individualProjects/gameOfLife';
 import thisPortfolio from './individualProjects/thisPortfolio';
+import marsPhotoSeachApp from './individualProjects/marsPhotoSeachApp';
 import meteoriteExplorerApp from './individualProjects/meteoriteExplorerApp';
 import whosStreamingTwitch from './individualProjects/whosStreamingTwitch';
 import wikipediaViewer from './individualProjects/wikipediaViewer';
@@ -37,6 +38,7 @@ export default [
   eogReactMap,
   gameOfLife,
   thisPortfolio,
+  marsPhotoSeachApp,
   meteoriteExplorerApp,
   whosStreamingTwitch,
   wikipediaViewer,
