@@ -17,23 +17,10 @@ const AboutMe = () => {
           <br />
           <br />
           <h3>
-            i'm andrew horn, a react + python + node developer. i speak english
-            and chinese
+            i'm andrew horn, a react + python + node developer.
           </h3>
-          <h3>中文也会说也会写</h3>
-          <hr />
           <br />
           <br />
-          <h3>
-            if you want the{' '}
-            <a
-              href="https://resume.andrew-horn-portfolio.life"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              old-fashioned resume
-            </a>
-          </h3>
         </div>
       </Jumbotron>
     </section>
