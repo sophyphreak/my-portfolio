@@ -18,9 +18,9 @@ const SingleProject = ({ title, demo, image, subtitle, text, github }) => (
           <h3>{title}</h3>
         </CardTitle>
       </CardBody>
-      <a href={demo} target="_blank" rel="noopener noreferrer">
+      {/* <a href={demo} target="_blank" rel="noopener noreferrer">
         <Img fluid={image.node.childImageSharp.fluid} />
-      </a>
+      </a> */}
       <CardBody>
         <CardSubtitle>{subtitle}</CardSubtitle>
         <hr />
