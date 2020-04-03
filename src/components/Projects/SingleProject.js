@@ -1,5 +1,4 @@
 import React from 'react';
-import Img from 'gatsby-image';
 import {
   Button,
   Card,
@@ -12,31 +11,29 @@ import {
 
 const SingleProject = ({ title, demo, image, subtitle, text, github }) => (
   <Col lg="4" md="6" sm="12" className="padding-sm">
-    <Card>
-      <CardBody>
-        <CardTitle style={{ fontFamily: 'monospace' }}>
-          <h3>{title}</h3>
-        </CardTitle>
-      </CardBody>
-      {/* <a href={demo} target="_blank" rel="noopener noreferrer">
-        <Img fluid={image.node.childImageSharp.fluid} />
-      </a> */}
-      <CardBody>
-        <CardSubtitle>{subtitle}</CardSubtitle>
-        <hr />
-        <CardText>
-          <strong>{text}</strong>
-        </CardText>
-        <div className="link-buttons-container">
-          <Button color="primary" href={demo} target="_blank">
-            see demo
-          </Button>
-          <Button color="primary" href={github} target="_blank">
-            github repo
-          </Button>
-        </div>
-      </CardBody>
-    </Card>
+    <a href={demo} style={{ color: 'inherit', textDecoration: 'inherit' }}>
+      <Card>
+        <CardBody>
+          <CardTitle style={{ fontFamily: 'monospace' }}>
+            <h3>{title}</h3>
+          </CardTitle>
+          <hr />
+          <CardSubtitle>{subtitle}</CardSubtitle>
+          <hr />
+          <CardText>
+            <strong>{text}</strong>
+          </CardText>
+          <div className="link-buttons-container">
+            <Button color="primary" href={demo} target="_blank">
+              see demo
+            </Button>
+            <Button color="primary" href={github} target="_blank">
+              github repo
+            </Button>
+          </div>
+        </CardBody>
+      </Card>
+    </a>
   </Col>
 );
 
