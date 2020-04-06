@@ -3,7 +3,6 @@ import kadampaSignInForm from './individualProjects/kadampaSignInForm';
 import cookingMeasureConverter from './individualProjects/cookingMeasureConverter';
 import gameOfLife from './individualProjects/gameOfLife';
 import meteoriteExplorerApp from './individualProjects/meteoriteExplorerApp';
-import thisPortfolio from './individualProjects/thisPortfolio';
 import whosStreamingTwitch from './individualProjects/whosStreamingTwitch';
 import wikipediaViewer from './individualProjects/wikipediaViewer';
 import technicalDocumentationPage from './individualProjects/technicalDocumentationPage';
@@ -31,7 +30,6 @@ export default [
   cookingMeasureConverter,
   gameOfLife,
   meteoriteExplorerApp,
-  thisPortfolio,
   whosStreamingTwitch,
   wikipediaViewer,
   technicalDocumentationPage,
