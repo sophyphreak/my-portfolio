@@ -4,8 +4,8 @@ import projectList from './projectList';
 
 const RestApis = ({ images }) => (
   <SingleSection
-    title="rest apis"
-    subtitle="built in node + express"
+    title="Rest Apis"
+    subtitle="Built in node + express"
     projectList={projectList}
     sectionId="rest-apis"
   />
