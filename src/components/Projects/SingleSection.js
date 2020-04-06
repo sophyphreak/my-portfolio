@@ -1,9 +1,7 @@
 import React from 'react';
 import SingleProject from './SingleProject';
 
-const SingleSection = (
-  { images, sectionId, title, subtitle, projectList } // props includes { images, etc}
-) => (
+const SingleSection = ({ sectionId, title, subtitle, projectList }) => (
   <section id={sectionId}>
     <br />
     <br />
@@ -12,10 +10,7 @@ const SingleSection = (
     <h3 className="project-subtitle">{subtitle}</h3>
     <div className="projects-container">
       {projectList.map((project, index) => {
-        const image = images.find(
-          img => img.node.relativePath === project.imagePath
-        );
-        return <SingleProject key={index} image={image} {...project} />;
+        return <SingleProject key={index} {...project} />;
       })}
     </div>
   </section>

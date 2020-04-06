@@ -9,7 +9,7 @@ import {
   Col
 } from 'reactstrap';
 
-const SingleProject = ({ title, demo, image, subtitle, text, github }) => (
+const SingleProject = ({ title, demo, subtitle, text, github }) => (
   <Col lg="4" md="6" sm="12" className="padding-sm">
     <a
       href={demo || github}
