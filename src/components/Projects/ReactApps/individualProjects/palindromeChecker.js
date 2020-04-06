@@ -1,6 +1,5 @@
 export default {
   title: 'palindrome-checker',
-  imagePath: 'reactApps/palindrome-checker.png',
   subtitle: "check if it's a palindrome",
   text:
     'react + create-react-app | netlify | bootstap + reactstrap | prettier | git',

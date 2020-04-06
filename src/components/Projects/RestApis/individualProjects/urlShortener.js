@@ -1,6 +1,5 @@
 export default {
   title: 'url-shortener',
-  imagePath: 'restApis/url-shortener.png',
   subtitle: 'shortens urls and redirects',
   text:
     'node + express | body-parser | cors | dotenv | is-valid-http-url | mongodb + mongoose | digitalocean + dokku | git',

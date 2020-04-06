@@ -1,6 +1,5 @@
 export default {
   title: 'roman-numeral-converter',
-  imagePath: 'reactApps/roman-numeral-converter.png',
   subtitle: 'convert a number to a roman numeral',
   text:
     'react + create-react-app | netlify | bootstap + reactstrap | prettier | git',

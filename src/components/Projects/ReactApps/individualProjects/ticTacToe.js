@@ -1,6 +1,5 @@
 export default {
   title: 'tic-tac-toe',
-  imagePath: 'reactApps/tic-tac-toe.png',
   subtitle: 'play the classic simon game in your browser',
   text:
     'react + create-react-app | underscore | netlify | bootstrap + reactstrap | git',

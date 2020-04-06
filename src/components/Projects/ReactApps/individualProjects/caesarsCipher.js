@@ -1,6 +1,5 @@
 export default {
   title: 'caesars-cipher',
-  imagePath: 'reactApps/caesars-cipher.png',
   subtitle: "encode or decode using caesar's cipher",
   text:
     'react + create-react-app | netlify | bootstap + reactstrap | prettier | git',

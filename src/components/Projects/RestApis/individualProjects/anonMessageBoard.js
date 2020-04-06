@@ -1,6 +1,5 @@
 export default {
   title: 'anon-message-board',
-  imagePath: 'restApis/anon-message-board.png',
   subtitle:
     'you can create threads and replies on a message board. has full CRUD functionality',
   text:

@@ -1,6 +1,5 @@
 export default {
   title: 'issue-tracker',
-  imagePath: 'restApis/issue-tracker.png',
   subtitle: 'has all CRUD operations with REST API',
   text:
     'node + express | body-parser | cors | dotenv | helmet | lodash | moment | mongodb + mongoose | path | chai + chai-http + mocha | husky + lint-staged + prettier | digitalocean + dokku | zombie | git',

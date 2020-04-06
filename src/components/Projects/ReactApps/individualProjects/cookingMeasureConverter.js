@@ -1,6 +1,5 @@
 export default {
   title: 'cooking-measure-converter',
-  imagePath: 'reactApps/cooking-measure-converter.png',
   subtitle:
     'helps you convert metric to imperial measures and vice versa for cooking',
   text:

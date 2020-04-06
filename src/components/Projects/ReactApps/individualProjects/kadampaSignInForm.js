@@ -1,6 +1,5 @@
 export default {
   title: 'kadampa-sign-in-form',
-  imagePath: 'reactApps/kadampa-sign-in-form.png',
   subtitle:
     'a serverless frontend app for collecting sign-in information. scroll to the very bottom and download an xlsx file of the client-side sign-in data',
   text:

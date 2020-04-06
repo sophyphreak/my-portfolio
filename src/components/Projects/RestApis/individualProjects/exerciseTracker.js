@@ -1,6 +1,5 @@
 export default {
   title: 'exercise-tracker',
-  imagePath: 'restApis/exercise-tracker.png',
   subtitle:
     "POST to create new users and their exercises, then GET a list of a user's exercises",
   text:

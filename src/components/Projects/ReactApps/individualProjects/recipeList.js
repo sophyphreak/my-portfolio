@@ -1,6 +1,5 @@
 export default {
   title: 'recipe-list',
-  imagePath: 'reactApps/recipe-list.png',
   subtitle:
     'you can make recipes with crud operations, with the data saved in localhost',
   text: 'react + create-react-app | netlify | bootstrap + reactstrap | git',

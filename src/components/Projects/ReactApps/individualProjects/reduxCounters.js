@@ -1,6 +1,5 @@
 export default {
   title: 'redux-counters',
-  imagePath: 'reactApps/redux-counters.png',
   subtitle: 'you can have a bunch of counters with a redux state',
   text:
     'react + redux + create-react-app | netlify | bootstrap + reactstrap | prettier | git',

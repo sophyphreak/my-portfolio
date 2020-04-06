@@ -1,6 +1,5 @@
 export default {
   title: 'telephone-numbers-validator',
-  imagePath: 'reactApps/telephone-numbers-validator.png',
   subtitle: 'validate some phone numbas',
   text:
     'react + create-react-app | bootstrap + reactstrap | mocha + chai | prettier | git',
