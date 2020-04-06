@@ -2,7 +2,6 @@ import homelessInHouston from './individualProjects/homelessInHouston';
 import wordListApp from './individualProjects/wordListApp';
 import kadampaSignInForm from './individualProjects/kadampaSignInForm';
 import cookingMeasureConverter from './individualProjects/cookingMeasureConverter';
-import ebookManagerApp from './individualProjects/ebookManagerApp';
 import eogReactMap from './individualProjects/eogReactMap';
 import gameOfLife from './individualProjects/gameOfLife';
 import marsPhotoSeachApp from './individualProjects/marsPhotoSeachApp';
@@ -34,7 +33,6 @@ export default [
   wordListApp,
   kadampaSignInForm,
   cookingMeasureConverter,
-  ebookManagerApp,
   eogReactMap,
   gameOfLife,
   marsPhotoSeachApp,
