@@ -1,14 +1,14 @@
 export default [
   {
-    name: 'full stack apps',
+    name: 'Full Stack Apps',
     link: '#full-stack-apps'
   },
   {
-    name: 'react apps',
+    name: 'React Apps',
     link: '#react-apps'
   },
   {
-    name: 'rest apis',
+    name: 'Rest Apis',
     link: '#rest-apis'
   }
 ];

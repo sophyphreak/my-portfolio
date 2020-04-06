@@ -1,6 +1,6 @@
 export default {
   title: 'url-shortener',
-  subtitle: 'shortens urls and redirects',
+  subtitle: 'Shortens urls and redirects.',
   text:
     'node + express | body-parser | cors | dotenv | is-valid-http-url | mongodb + mongoose | digitalocean + dokku | git',
   demo: 'https://url-shortener.andrew-horn-portfolio.life/',

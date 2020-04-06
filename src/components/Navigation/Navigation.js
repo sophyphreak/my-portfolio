@@ -28,13 +28,13 @@ export default class Navigation extends React.Component {
     return (
       <div>
         <Navbar color="light" light expand="md" fixed="top">
-          <NavbarBrand href="/">andrew horn</NavbarBrand>
+          <NavbarBrand href="/">Andrew Horn</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink onClick={this.toggle} href="#about-me">
-                  about me
+                  About Me
                 </NavLink>
               </NavItem>
               {sectionData.map((section, index) => (
@@ -50,7 +50,7 @@ export default class Navigation extends React.Component {
               ))}
               <NavItem>
                 <NavLink onClick={this.toggle} href="#online">
-                  online
+                  Online
                 </NavLink>
               </NavItem>
             </Nav>

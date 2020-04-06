@@ -4,7 +4,7 @@ import projectList from './projectList';
 
 const FullStackApps = () => (
   <SingleSection
-    title="full stack apps"
+    title="Full Stack Apps"
     subtitle=""
     projectList={projectList}
     sectionId="full-stack-apps"

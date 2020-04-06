@@ -1,6 +1,6 @@
 export default {
   title: 'telephone-numbers-validator',
-  subtitle: 'validate some phone numbas',
+  subtitle: 'Validate some phone numbers.',
   text:
     'react + create-react-app | bootstrap + reactstrap | mocha + chai | prettier | git',
   demo: 'https://telephone-numbers-validator-andrew-horn.netlify.com/',

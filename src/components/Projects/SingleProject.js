@@ -29,11 +29,11 @@ const SingleProject = ({ title, demo, subtitle, text, github }) => (
           <div className="link-buttons-container">
             {demo && (
               <Button color="primary" href={demo} target="_blank">
-                see demo
+                See Demo
               </Button>
             )}
             <Button color="primary" href={github} target="_blank">
-              github repo
+              Github Repo
             </Button>
           </div>
         </CardBody>

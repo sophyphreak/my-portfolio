@@ -1,6 +1,6 @@
 export default {
   title: 'tic-tac-toe',
-  subtitle: 'play the classic simon game in your browser',
+  subtitle: 'Play the classic simon game in your browser.',
   text:
     'react + create-react-app | underscore | netlify | bootstrap + reactstrap | git',
   demo: 'https://tic-tac-toe-andrew-horn.netlify.com/',

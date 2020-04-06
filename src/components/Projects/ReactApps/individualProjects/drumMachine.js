@@ -1,6 +1,6 @@
 export default {
   title: 'drum-machine',
-  subtitle: 'you can play drum sounds with key presses or button clicks',
+  subtitle: 'You can play drum sounds with key presses or button clicks.',
   text:
     'react + create-react-app | netlify | bootstrap + reactstrap | prettier | git',
   demo: 'https://drum-machine-andrew-horn.netlify.com/',

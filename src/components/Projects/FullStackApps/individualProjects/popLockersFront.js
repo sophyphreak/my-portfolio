@@ -1,7 +1,7 @@
 export default {
   title: 'pop-lockers-frontend',
   subtitle:
-    'you can login and create, read, update, and delete receipts for car-related services',
+    'You can login and create, read, update, and delete receipts for car-related services.',
   text:
     'axios | bootstrap + reactstrap | formik | node-sass | toposort | yup | prettier | gatsby + netlify | git',
   demo: 'https://pop-lockers.netlify.com/',

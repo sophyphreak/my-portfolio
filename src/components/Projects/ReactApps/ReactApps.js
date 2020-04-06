@@ -4,7 +4,7 @@ import projectList from './projectList';
 
 const ReactApps = ({ images }) => (
   <SingleSection
-    title="react apps"
+    title="React Apps"
     subtitle=""
     projectList={projectList}
     sectionId="react-apps"
