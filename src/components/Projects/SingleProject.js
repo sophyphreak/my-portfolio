@@ -11,7 +11,10 @@ import {
 
 const SingleProject = ({ title, demo, image, subtitle, text, github }) => (
   <Col lg="4" md="6" sm="12" className="padding-sm">
-    <a href={demo} style={{ color: 'inherit', textDecoration: 'inherit' }}>
+    <a
+      href={demo || github}
+      style={{ color: 'inherit', textDecoration: 'inherit' }}
+    >
       <Card>
         <CardBody>
           <CardTitle style={{ fontFamily: 'monospace' }}>
@@ -24,9 +27,11 @@ const SingleProject = ({ title, demo, image, subtitle, text, github }) => (
             <strong>{text}</strong>
           </CardText>
           <div className="link-buttons-container">
-            <Button color="primary" href={demo} target="_blank">
-              see demo
-            </Button>
+            {demo && (
+              <Button color="primary" href={demo} target="_blank">
+                see demo
+              </Button>
+            )}
             <Button color="primary" href={github} target="_blank">
               github repo
             </Button>

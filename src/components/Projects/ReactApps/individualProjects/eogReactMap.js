@@ -5,6 +5,6 @@ export default {
     'this app tracks a virtual drone as it slowly circles houston.  its backend is in the apis and microservices section of this portfolio',
   text:
     'react + redux + redux-saga | dotenv | materialui | google-map-react | moment | digitalocean + dokku | prettier + husky + lint-staged | git',
-  demo: 'https://andrew-horn-eog-react-map.netlify.com/',
+  demo: '',
   github: 'https://github.com/sophyphreak/andrew-horn-eog-react-map'
 };
