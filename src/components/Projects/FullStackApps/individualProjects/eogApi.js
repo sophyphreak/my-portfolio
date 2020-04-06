@@ -1,6 +1,5 @@
 export default {
   title: 'eog-api',
-  imagePath: 'restApis/eog-api.png',
   subtitle:
     'returns an array of trailing location data for a fake drone slowly circling houston.  its frontend is in the react apps section of this portfolio',
   text:

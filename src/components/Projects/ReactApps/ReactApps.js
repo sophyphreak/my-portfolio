@@ -5,10 +5,9 @@ import projectList from './projectList';
 const ReactApps = ({ images }) => (
   <SingleSection
     title="react apps"
-    subtitle="serverless and full stack"
+    subtitle=""
     projectList={projectList}
     sectionId="react-apps"
-    images={images}
   />
 );
 

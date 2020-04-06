@@ -1,11 +1,7 @@
-import popLockers from './individualProjects/popLockers';
 import homelessInHouston from './individualProjects/homelessInHouston';
-import wordListApp from './individualProjects/wordListApp';
 import kadampaSignInForm from './individualProjects/kadampaSignInForm';
 import cookingMeasureConverter from './individualProjects/cookingMeasureConverter';
-import eogReactMap from './individualProjects/eogReactMap';
 import gameOfLife from './individualProjects/gameOfLife';
-import marsPhotoSeachApp from './individualProjects/marsPhotoSeachApp';
 import meteoriteExplorerApp from './individualProjects/meteoriteExplorerApp';
 import thisPortfolio from './individualProjects/thisPortfolio';
 import whosStreamingTwitch from './individualProjects/whosStreamingTwitch';
@@ -30,14 +26,10 @@ import productLandingPage from './individualProjects/productLandingPage';
 import tributePageForDengXiaoping from './individualProjects/tributePageForDengXiaoping';
 
 export default [
-  popLockers,
   homelessInHouston,
-  wordListApp,
   kadampaSignInForm,
   cookingMeasureConverter,
-  eogReactMap,
   gameOfLife,
-  marsPhotoSeachApp,
   meteoriteExplorerApp,
   thisPortfolio,
   whosStreamingTwitch,
