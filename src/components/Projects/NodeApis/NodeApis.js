@@ -2,13 +2,13 @@ import React from 'react';
 import SingleSection from '../SingleSection';
 import projectList from './projectList';
 
-const RestApis = ({ images }) => (
+const NodeApis = () => (
   <SingleSection
-    title="Rest Apis"
-    subtitle="Built in node + express"
+    title="Node Apis"
+    subtitle="Built in Express"
     projectList={projectList}
-    sectionId="rest-apis"
+    sectionId="node-apis"
   />
 );
 
-export default RestApis;
+export default NodeApis;

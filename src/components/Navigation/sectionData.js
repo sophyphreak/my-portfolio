@@ -8,7 +8,11 @@ export default [
     link: '#react-apps'
   },
   {
-    name: 'Rest Apis',
-    link: '#rest-apis'
+    name: 'Flask Apis',
+    link: '#flask-apis'
+  },
+  {
+    name: 'Node Apis',
+    link: '#node-apis'
   }
 ];

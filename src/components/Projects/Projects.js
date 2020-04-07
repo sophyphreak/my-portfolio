@@ -1,14 +1,16 @@
 import React from 'react';
 import FullStackApps from './FullStackApps/FullStackApps';
 import ReactApps from './ReactApps/ReactApps';
-import RestApis from './RestApis/RestApis';
+import FlaskApis from './FlaskApis/FlaskApis';
+import NodeApis from './NodeApis/NodeApis';
 
-const Projects = ({ data }) => {
+const Projects = () => {
   return (
     <div>
       <FullStackApps />
       <ReactApps />
-      <RestApis />
+      <FlaskApis />
+      <NodeApis />
     </div>
   );
 };
