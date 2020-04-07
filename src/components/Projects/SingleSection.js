@@ -9,9 +9,9 @@ const SingleSection = ({ sectionId, title, subtitle, projectList }) => (
     <h1 className="project-title">{title}</h1>
     <h3 className="project-subtitle">{subtitle}</h3>
     <div className="projects-container">
-      {projectList.map((project, index) => {
-        return <SingleProject key={index} {...project} />;
-      })}
+      {projectList.map((project, index) => (
+        <SingleProject key={index} {...project} />
+      ))}
     </div>
   </section>
 );
