@@ -8,8 +8,8 @@ const Projects = () => {
   return (
     <div>
       <FullStackApps />
-      <ReactApps />
       <FlaskApis />
+      <ReactApps />
       <NodeApis />
     </div>
   );

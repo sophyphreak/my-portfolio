@@ -4,12 +4,12 @@ export default [
     link: '#full-stack-apps'
   },
   {
-    name: 'React Apps',
-    link: '#react-apps'
-  },
-  {
     name: 'Flask Apis',
     link: '#flask-apis'
+  },
+  {
+    name: 'React Apps',
+    link: '#react-apps'
   },
   {
     name: 'Node Apis',
