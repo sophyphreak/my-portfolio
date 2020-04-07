@@ -5,7 +5,7 @@ import projectList from './projectList';
 const FlaskApis = () => (
   <SingleSection
     title="Flask Apis"
-    subtitle="Built with flask_restful"
+    subtitle="Built with flask-restful"
     projectList={projectList}
     sectionId="flask-apis"
   />
