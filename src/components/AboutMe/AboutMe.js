@@ -16,7 +16,7 @@ const AboutMe = () => {
           <br />
           <br />
           <br />
-          <h3>I'm Andrew Horn, a react + python + node developer.</h3>
+          <h3>I'm Andrew Horn, a react + flask + node developer.</h3>
           <br />
           <br />
         </div>
