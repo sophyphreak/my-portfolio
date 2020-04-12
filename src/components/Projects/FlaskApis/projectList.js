@@ -1,3 +1,4 @@
+import flaskPersonalLibrary from './individualProjects/flaskPersonalLibrary';
 import flaskIssueTracker from './individualProjects/flaskIssueTracker';
 import flaskMetricImperialConverter from './individualProjects/flaskMetricImperialConverter';
 import flaskFileMetadata from './individualProjects/flaskFileMetadata';
@@ -7,6 +8,7 @@ import flaskTimestamp from './individualProjects/flaskTimestamp';
 import flaskRequestHeaderParser from './individualProjects/flaskRequestHeaderParser';
 
 export default [
+  flaskPersonalLibrary,
   flaskIssueTracker,
   flaskMetricImperialConverter,
   flaskFileMetadata,
