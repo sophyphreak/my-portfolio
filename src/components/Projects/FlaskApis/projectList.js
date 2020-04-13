@@ -1,3 +1,4 @@
+import flaskAnonMessageBoard from './individualProjects/flaskAnonMessageBoard';
 import flaskStockPriceChecker from './individualProjects/flaskStockPriceChecker';
 import flaskPersonalLibrary from './individualProjects/flaskPersonalLibrary';
 import flaskIssueTracker from './individualProjects/flaskIssueTracker';
@@ -9,6 +10,7 @@ import flaskTimestamp from './individualProjects/flaskTimestamp';
 import flaskRequestHeaderParser from './individualProjects/flaskRequestHeaderParser';
 
 export default [
+  flaskAnonMessageBoard,
   flaskStockPriceChecker,
   flaskPersonalLibrary,
   flaskIssueTracker,
