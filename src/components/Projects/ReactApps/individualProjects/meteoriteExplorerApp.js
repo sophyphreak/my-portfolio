@@ -3,6 +3,6 @@ export default {
   subtitle: 'Search through all fallen meteorites in a nasa database.',
   text:
     'react + create-react-app | bootstrap + reactstrap | axios | prettier + pretty-quick + husky | git',
-  demo: 'https://andrew-horn-meteorite-explorer-app.netlify.com/',
+  demo: 'https://andrew-horn-meteorite-explorer-app.netlify.app/',
   github: 'https://github.com/sophyphreak/meteorite-explorer-app'
 };

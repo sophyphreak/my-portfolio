@@ -3,6 +3,6 @@ export default {
   subtitle: "Encode or decode using caesar's cipher.",
   text:
     'react + create-react-app | netlify | bootstap + reactstrap | prettier | git',
-  demo: 'https://caesars-cipher-andrew-horn.netlify.com/',
+  demo: 'https://caesars-cipher-andrew-horn.netlify.app/',
   github: 'https://github.com/sophyphreak/caesars-cipher'
 };

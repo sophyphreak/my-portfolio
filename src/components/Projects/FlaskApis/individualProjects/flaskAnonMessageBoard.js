@@ -4,6 +4,6 @@ export default {
     'You can create threads and replies on a message board. Has full CRUD functionality.',
   text:
     'flask + flask-resful | flask-talisman | flask-cors | flask-sqlalchemy | gunicorn | black | digitalocean + dokku | git',
-  demo: 'https://flask-anon-message-board.netlify.com/',
+  demo: 'https://flask-anon-message-board.netlify.app/',
   github: 'https://github.com/sophyphreak/flask-anon-message-board'
 };

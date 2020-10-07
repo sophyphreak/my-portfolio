@@ -3,6 +3,6 @@ export default {
   subtitle: 'See a product landing page for the Zhuangzi.',
   text:
     'react + gatsby | react-youtube | bootstrap + reactstrap | netlify | prettier | git',
-  demo: 'https://product-landing-page-andrew-horn.netlify.com/',
+  demo: 'https://product-landing-page-andrew-horn.netlify.app/',
   github: 'https://github.com/sophyphreak/product-landing-page'
 };

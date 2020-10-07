@@ -4,6 +4,6 @@ export default {
     'You can login and create, read, update, and delete receipts for car-related services.',
   text:
     'axios | bootstrap + reactstrap | formik | node-sass | toposort | yup | prettier | gatsby + netlify | git',
-  demo: 'https://pop-lockers.netlify.com/',
+  demo: 'https://pop-lockers.netlify.app/',
   github: 'https://github.com/Pop-Lockers/pop-lockers-front'
 };
