@@ -3,6 +3,6 @@ export default {
   subtitle: 'You can check stock prices and add likes to stocks.',
   text:
     'flask + flask-restful | flask-talisman | flask-sqlalchemy | requests | black | gunicorn | digitalocean + dokku | git',
-  demo: 'https://flask-stock-price-checker.netlify.app/',
+  demo: '',
   github: 'https://github.com/sophyphreak/flask-stock-price-checker'
 };

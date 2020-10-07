@@ -3,6 +3,6 @@ export default {
   subtitle: 'GET unit conversion.',
   text:
     'flask + flask-restful | flask-talisman | measurement | flask-cors | gunicorn | digitalocean + dokku | git',
-  demo: 'https://flask-metric-imperial-converter.netlify.app/',
+  demo: '',
   github: 'https://github.com/sophyphreak/flask-metric-imperial-converter'
 };

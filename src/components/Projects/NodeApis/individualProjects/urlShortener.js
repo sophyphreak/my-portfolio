@@ -3,6 +3,6 @@ export default {
   subtitle: 'Shortens urls and redirects.',
   text:
     'node + express | body-parser | cors | dotenv | is-valid-http-url | mongodb + mongoose | digitalocean + dokku | git',
-  demo: 'https://url-shortener.andrew-horn-portfolio.life/',
+  demo: '',
   github: 'https://github.com/sophyphreak/url-shortener'
 };

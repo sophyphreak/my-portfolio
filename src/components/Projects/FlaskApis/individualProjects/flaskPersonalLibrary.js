@@ -3,6 +3,6 @@ export default {
   subtitle: 'You can create and edit a personal library.',
   text:
     'flask + flask-restful | flask-talisman | flask-cors | black | gunicorn | digitalocean + dokku | git',
-  demo: 'https://flask-personal-library.netlify.app/',
+  demo: '',
   github: 'https://github.com/sophyphreak/flask-personal-library'
 };
