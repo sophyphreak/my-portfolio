@@ -1,4 +1,3 @@
-import homelessInHouston from './individualProjects/homelessInHouston';
 import kadampaSignInForm from './individualProjects/kadampaSignInForm';
 import cookingMeasureConverter from './individualProjects/cookingMeasureConverter';
 import gameOfLife from './individualProjects/gameOfLife';
@@ -7,6 +6,7 @@ import whosStreamingTwitch from './individualProjects/whosStreamingTwitch';
 import wikipediaViewer from './individualProjects/wikipediaViewer';
 import technicalDocumentationPage from './individualProjects/technicalDocumentationPage';
 import recipeList from './individualProjects/recipeList';
+import homelessInHouston from './individualProjects/homelessInHouston';
 import cashRegister from './individualProjects/cashRegister';
 import telephoneNumbersValidator from './individualProjects/telephoneNumbersValidator';
 import caesarsCipher from './individualProjects/caesarsCipher';
@@ -25,7 +25,6 @@ import productLandingPage from './individualProjects/productLandingPage';
 import tributePageForDengXiaoping from './individualProjects/tributePageForDengXiaoping';
 
 export default [
-  homelessInHouston,
   kadampaSignInForm,
   cookingMeasureConverter,
   gameOfLife,
@@ -34,6 +33,7 @@ export default [
   wikipediaViewer,
   technicalDocumentationPage,
   recipeList,
+  homelessInHouston,
   cashRegister,
   telephoneNumbersValidator,
   caesarsCipher,
