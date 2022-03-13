@@ -1,3 +1,4 @@
+import andrewsBlog from './individualProjects/andrewsBlog';
 import kadampaSignInForm from './individualProjects/kadampaSignInForm';
 import cookingMeasureConverter from './individualProjects/cookingMeasureConverter';
 import gameOfLife from './individualProjects/gameOfLife';
@@ -25,6 +26,7 @@ import productLandingPage from './individualProjects/productLandingPage';
 import tributePageForDengXiaoping from './individualProjects/tributePageForDengXiaoping';
 
 export default [
+  andrewsBlog,
   kadampaSignInForm,
   cookingMeasureConverter,
   gameOfLife,
@@ -49,5 +51,5 @@ export default [
   randomZhuangziQuoteMachine,
   surveyForm,
   productLandingPage,
-  tributePageForDengXiaoping
+  tributePageForDengXiaoping,
 ];
