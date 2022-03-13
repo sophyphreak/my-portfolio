@@ -1,3 +1,5 @@
+import populateWallchart from './individualProjects/populateWallchart';
+import eogApi from './individualProjects/eogApi';
 import anonMessageBoard from './individualProjects/anonMessageBoard';
 import stockPriceChecker from './individualProjects/stockPriceChecker';
 import personalLibrary from './individualProjects/personalLibrary';
@@ -10,6 +12,8 @@ import requestHeaderParser from './individualProjects/requestHeaderParser';
 import fileMetadata from './individualProjects/fileMetadata';
 
 export default [
+  populateWallchart,
+  eogApi,
   anonMessageBoard,
   stockPriceChecker,
   personalLibrary,
@@ -19,5 +23,5 @@ export default [
   urlShortener,
   timestamp,
   requestHeaderParser,
-  fileMetadata
+  fileMetadata,
 ];

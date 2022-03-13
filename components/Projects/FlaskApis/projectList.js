@@ -1,3 +1,5 @@
+import wordListAppBackend from './individualProjects/wordListAppBackend';
+import flaskPoplockersBackend from './individualProjects/popLockersBack';
 import flaskAnonMessageBoard from './individualProjects/flaskAnonMessageBoard';
 import flaskStockPriceChecker from './individualProjects/flaskStockPriceChecker';
 import flaskPersonalLibrary from './individualProjects/flaskPersonalLibrary';
@@ -10,6 +12,8 @@ import flaskTimestamp from './individualProjects/flaskTimestamp';
 import flaskRequestHeaderParser from './individualProjects/flaskRequestHeaderParser';
 
 export default [
+  wordListAppBackend,
+  flaskPoplockersBackend,
   flaskAnonMessageBoard,
   flaskStockPriceChecker,
   flaskPersonalLibrary,
@@ -19,5 +23,5 @@ export default [
   flaskExerciseTracker,
   flaskUrlShortener,
   flaskRequestHeaderParser,
-  flaskTimestamp
+  flaskTimestamp,
 ];
