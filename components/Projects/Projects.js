@@ -3,6 +3,7 @@ import ReactApps from './ReactApps/ReactApps';
 import FullStackApps from './FullStackApps/FullStackApps';
 import FlaskApis from './FlaskApis/FlaskApis';
 import NodeApis from './NodeApis/NodeApis';
+import Go from './Go/Go';
 import { Tabs, TabList, Tab, TabPanels, TabPanel } from '@chakra-ui/react';
 
 const Projects = () => {
@@ -14,6 +15,7 @@ const Projects = () => {
           <Tab>Full Stack React</Tab>
           <Tab>Python</Tab>
           <Tab>Node</Tab>
+          <Tab>Go</Tab>
         </TabList>
 
         <TabPanels>
@@ -28,6 +30,9 @@ const Projects = () => {
           </TabPanel>
           <TabPanel>
             <NodeApis />
+          </TabPanel>
+          <TabPanel>
+            <Go />
           </TabPanel>
         </TabPanels>
       </Tabs>
