@@ -3,11 +3,8 @@ import kadampaSignInForm from './individualProjects/kadampaSignInForm';
 import cookingMeasureConverter from './individualProjects/cookingMeasureConverter';
 import gameOfLife from './individualProjects/gameOfLife';
 import meteoriteExplorerApp from './individualProjects/meteoriteExplorerApp';
-import whosStreamingTwitch from './individualProjects/whosStreamingTwitch';
-import wikipediaViewer from './individualProjects/wikipediaViewer';
 import technicalDocumentationPage from './individualProjects/technicalDocumentationPage';
 import recipeList from './individualProjects/recipeList';
-import homelessInHouston from './individualProjects/homelessInHouston';
 import cashRegister from './individualProjects/cashRegister';
 import telephoneNumbersValidator from './individualProjects/telephoneNumbersValidator';
 import caesarsCipher from './individualProjects/caesarsCipher';
@@ -24,6 +21,9 @@ import reduxCounters from './individualProjects/reduxCounters';
 import surveyForm from './individualProjects/surveyForm';
 import productLandingPage from './individualProjects/productLandingPage';
 import tributePageForDengXiaoping from './individualProjects/tributePageForDengXiaoping';
+import whosStreamingTwitch from './individualProjects/whosStreamingTwitch';
+import wikipediaViewer from './individualProjects/wikipediaViewer';
+import homelessInHouston from './individualProjects/homelessInHouston';
 
 export default [
   andrewsBlog,
@@ -31,11 +31,8 @@ export default [
   cookingMeasureConverter,
   gameOfLife,
   meteoriteExplorerApp,
-  whosStreamingTwitch,
-  wikipediaViewer,
   technicalDocumentationPage,
   recipeList,
-  homelessInHouston,
   cashRegister,
   telephoneNumbersValidator,
   caesarsCipher,
@@ -52,4 +49,7 @@ export default [
   surveyForm,
   productLandingPage,
   tributePageForDengXiaoping,
+  whosStreamingTwitch,
+  wikipediaViewer,
+  homelessInHouston,
 ];

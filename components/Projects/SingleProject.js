@@ -27,17 +27,7 @@ const SingleProject = ({ title, demo, subtitle, github }) => (
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
-      {demo ? (
-        <Box>
-          <Iframe demo={demo} />
-        </Box>
-      ) : (
-        <></>
-      )}
-      <Box m={1} textAlign="center">
-        {subtitle}
-      </Box>
-      <Center>
+      <Center my="2em">
         <HStack spacing="24px">
           {demo ? (
             <Button colorScheme="blue" w="6em" h="5em">
@@ -56,6 +46,16 @@ const SingleProject = ({ title, demo, subtitle, github }) => (
           </Button>
         </HStack>
       </Center>
+      {demo ? (
+        <Box>
+          <Iframe demo={demo} />
+        </Box>
+      ) : (
+        <></>
+      )}
+      <Box m={1} textAlign="center">
+        {subtitle}
+      </Box>
     </AccordionPanel>
   </AccordionItem>
 );
