@@ -1,30 +1,15 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faGithub,
-  faLinkedin,
-  faFreeCodeCamp,
-} from '@fortawesome/fontawesome-free-brands';
+import { faGithub } from '@fortawesome/fontawesome-free-brands';
 
 import {
-  Card,
-  CardText,
-  CardBody,
-  CardTitle,
-  CardSubtitle,
-  Col,
-} from 'reactstrap';
-import {
-  AspectRatio,
   Button,
   Box,
   Center,
-  Flex,
   AccordionItem,
   AccordionButton,
   AccordionPanel,
   AccordionIcon,
-  Spacer,
   HStack,
 } from '@chakra-ui/react';
 import { ExternalLinkIcon } from '@chakra-ui/icons';

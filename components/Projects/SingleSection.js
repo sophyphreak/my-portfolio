@@ -1,6 +1,6 @@
 import React from 'react';
 import SingleProject from './SingleProject';
-import { Box, Container, Accordion, Grid } from '@chakra-ui/react';
+import { Box, Accordion, Grid } from '@chakra-ui/react';
 
 const SingleSection = ({ sectionId, projectList }) => (
   <section id={sectionId}>
