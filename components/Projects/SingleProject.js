@@ -13,6 +13,8 @@ import {
   HStack,
 } from '@chakra-ui/react';
 import { ExternalLinkIcon } from '@chakra-ui/icons';
+import dynamic from 'next/dynamic';
+const Iframe = dynamic(() => import('./Iframe'));
 
 const SingleProject = ({ title, demo, subtitle, github }) => (
   <AccordionItem>
@@ -27,7 +29,7 @@ const SingleProject = ({ title, demo, subtitle, github }) => (
     <AccordionPanel pb={4}>
       {demo ? (
         <Box>
-          <iframe src={demo} width="100%" height="500px" />
+          <Iframe demo={demo} />
         </Box>
       ) : (
         <></>
