@@ -20,7 +20,6 @@ import randomZhuangziQuoteMachine from './individualProjects/randomZhuangziQuote
 import reduxCounters from './individualProjects/reduxCounters';
 import surveyForm from './individualProjects/surveyForm';
 import productLandingPage from './individualProjects/productLandingPage';
-import tributePageForDengXiaoping from './individualProjects/tributePageForDengXiaoping';
 import whosStreamingTwitch from './individualProjects/whosStreamingTwitch';
 import wikipediaViewer from './individualProjects/wikipediaViewer';
 import homelessInHouston from './individualProjects/homelessInHouston';
@@ -48,7 +47,6 @@ export default [
   randomZhuangziQuoteMachine,
   surveyForm,
   productLandingPage,
-  tributePageForDengXiaoping,
   whosStreamingTwitch,
   wikipediaViewer,
   homelessInHouston,

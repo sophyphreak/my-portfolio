@@ -20,7 +20,9 @@ const Online = () => (
         </a>
       </Button>
       <Button colorScheme="whiteAlpha" className="online__button">
-        <a target="_blank" rel="noreferrer">
+        <a 
+                  href="https://www.linkedin.com/in/andrewhorn-78493/"
+        target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faLinkedin} color="black" size="2x" />
         </a>
       </Button>
