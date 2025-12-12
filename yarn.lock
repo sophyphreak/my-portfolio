@@ -814,14 +814,14 @@
     glob "7.1.7"
 
 "@next/swc-android-arm-eabi@12.3.5":
-  version "13.2.4-canary.2"
-  resolved "https://registry.yarnpkg.com/@next/swc-android-arm-eabi/-/swc-android-arm-eabi-13.2.4-canary.2.tgz#9d225ac0ac8bb460f7121ba37911a67058c32b25"
-  integrity sha512-o3GB8gMOVjLh4Gy4+dMTqaKzrXdUM9vnZ0ZmyBwqe+x5m7jg4QhJ1lfMzD7ACghubeAxNgv6xlrXs5ngNw4ppw==
+  version "13.2.5-canary.10"
+  resolved "https://registry.yarnpkg.com/@next/swc-android-arm-eabi/-/swc-android-arm-eabi-13.2.5-canary.10.tgz#4e2ee16eb332189c416600dc1b79d010366d89d2"
+  integrity sha512-SOJzyimV93BKujpkDomDY+pDIhQtheyJQgsivMMmlYyAoBnmvsczIZKb1yMKNpvKs+DIg01wDnU0BHnwkSdcVQ==
 
 "@next/swc-android-arm64@12.3.5":
-  version "12.3.4"
-  resolved "https://registry.yarnpkg.com/@next/swc-android-arm64/-/swc-android-arm64-12.3.4.tgz#11a146dae7b8bca007239b21c616e83f77b19ed4"
-  integrity sha512-5jf0dTBjL+rabWjGj3eghpLUxCukRhBcEJgwLedewEA/LJk2HyqCvGIwj5rH+iwmq1llCWbOky2dO3pVljrapg==
+  version "13.2.5-canary.10"
+  resolved "https://registry.yarnpkg.com/@next/swc-android-arm64/-/swc-android-arm64-13.2.5-canary.10.tgz#f2d3a2394989a37e1acf8d0687795e08815ddc00"
+  integrity sha512-DKB08+KjFroYtBtJOXvYC0nX+hxCLmb21eTxJCuo5BVW8TfbiQZ61muStqTygGU89oeaOIsV2X4fPNlLfGm1sg==
 
 "@next/swc-darwin-arm64@12.3.5":
   version "12.3.5"
@@ -829,14 +829,14 @@
   integrity sha512-820++QiPnadIBPsV0CDLWxMe3BDXpHpSDqHy9wm1T0dHiG4O7tjgILrDJZ8LbeYXHNPr9S/7USKm93H3CWvbKw==
 
 "@next/swc-darwin-x64@12.3.5":
-  version "12.1.7-canary.51"
-  resolved "https://registry.yarnpkg.com/@next/swc-darwin-x64/-/swc-darwin-x64-12.1.7-canary.51.tgz#abfa588662be2eb8da37e64e9b0317a1c3db1394"
-  integrity sha512-ahEmzMqrzuqPD0FvR0dYTJ6fAVxsypvJjPX+uszjOGzoDBWFTNzyh6f4QP2G0Irm0x91awiIr4XgS3a72YrfvQ==
+  version "16.1.0-canary.15"
+  resolved "https://registry.yarnpkg.com/@next/swc-darwin-x64/-/swc-darwin-x64-16.1.0-canary.15.tgz#98c728d492d90a8af19a5457e86c03ea7ed74bf7"
+  integrity sha512-Jfbvxx3tJ5UkapJYCAmxpsRDmkGyV/yOou8cJRrDKBV3PWhsX5kHjVAW3lmCQFPgWB6x/6omWxX16k5+fZRpDw==
 
 "@next/swc-freebsd-x64@12.3.5":
-  version "12.2.1-canary.3"
-  resolved "https://registry.yarnpkg.com/@next/swc-freebsd-x64/-/swc-freebsd-x64-12.2.1-canary.3.tgz#9e7a7cf060dae487a726a7a5964f3033cdace6fe"
-  integrity sha512-EQEHeNtb3p/7Fs/BX4qsBF8t9MBnnOAyhYhGDZVg5DGz2sP+1rPvzGZPJmANNQqfzSfAbHRBOSEEQrxqmDTAgQ==
+  version "13.2.5-canary.10"
+  resolved "https://registry.yarnpkg.com/@next/swc-freebsd-x64/-/swc-freebsd-x64-13.2.5-canary.10.tgz#d905b09a19c477a168bfb3079582d066e8c2f587"
+  integrity sha512-5OlrCs4+uz9+vyB3XLNCmFyXRW+d5COfFIisKb2Vq3mTUTw4ht3fnbv9PoB5Nxxrxbt9Ff4BeGggis1kcyFzdQ==
 
 "@next/swc-linux-arm-gnueabihf@12.3.5":
   version "12.3.5"
@@ -844,14 +844,14 @@
   integrity sha512-QXMAObv8ISC+H0vKtPsyUwDtaSwZaI/2n7iWCl/C7GL/+dsGCXG4lMwzxsZ48Mx35rmAw8ksdUcLwpEzGoIA9A==
 
 "@next/swc-linux-arm64-gnu@12.3.5":
-  version "13.0.1-canary.1"
-  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-13.0.1-canary.1.tgz#cb6c2c127cb5f91e329481acdcd894bfb1967f0f"
-  integrity sha512-to9ydnm5TUAHjOqzBC5poxWzzAHX1rjKSpCkufck+fm0Yt+hTxoJS8SbchY4BaKXIvYPTvwCM0DobBk9p9dhWQ==
+  version "16.1.0-canary.15"
+  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-16.1.0-canary.15.tgz#c1058af09e7a4e2eb471f5c16ab581422a28894c"
+  integrity sha512-//L32/Y5G75CJglU7YieLgCPdUIkx65U6s8grKNeBpBm9tzdjMDlrMVEZSK6HDm/ScPZyfWoPxJ0pDdkdcngng==
 
 "@next/swc-linux-arm64-musl@12.3.5":
-  version "13.0.1-canary.2"
-  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-13.0.1-canary.2.tgz#e001e0de924925a967582b694d2880045298cba7"
-  integrity sha512-tNxS0/8jiUx3nxCyn/lHf4qu24CT/cKFUqWGrnjXl9WxHy8dUpG0hHgh+gfrn8Sj2sahy0Ub46nb+cwjY7x8jg==
+  version "16.1.0-canary.15"
+  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-16.1.0-canary.15.tgz#73bfff37c38f5a1096f4ffd29190ad4ac0bb3e73"
+  integrity sha512-DdUEejvxwf+HQjGa0SPl44q+FeYZEY4UHUswwxtFLHRlM/tNfEXsOaJ6EgIQSTN45U0x9OeLic+LM3VNc4vk0Q==
 
 "@next/swc-linux-x64-gnu@12.3.5":
   version "12.3.5"
