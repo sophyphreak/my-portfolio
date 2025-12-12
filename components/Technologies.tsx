@@ -123,7 +123,6 @@ const tagColorScheme = 'teal';
 const Technologies: NextPage = () => {
   return (
     <section className="tech">
-      <h2 className="tech__title">Technologies</h2>
       <div className="tech-container">
         <Box w="100%">
           <SimpleGrid columns={3} spacing={6}>
