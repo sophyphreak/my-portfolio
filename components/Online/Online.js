@@ -1,40 +1,31 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faGithub,
-  faLinkedin,
-  faFreeCodeCamp,
-} from '@fortawesome/fontawesome-free-brands';
-import { Button } from '@chakra-ui/react';
+import { profile } from '../portfolioContent';
+
+const links = [
+  { label: 'GitHub', href: profile.github, handle: '@sophyphreak' },
+  { label: 'LinkedIn', href: profile.linkedin, handle: 'in/andrewrhorn' },
+];
 
 const Online = () => (
-  <section id="online">
-    <div className="online__container">
-      <Button colorScheme="whiteAlpha" className="online__button">
-        <a
-          href="https://github.com/sophyphreak"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FontAwesomeIcon icon={faGithub} color="black" size="2x" />
-        </a>
-      </Button>
-      <Button colorScheme="whiteAlpha" className="online__button">
-        <a 
-                  href="https://www.linkedin.com/in/andrewhorn-78493/"
-        target="_blank" rel="noreferrer">
-          <FontAwesomeIcon icon={faLinkedin} color="black" size="2x" />
-        </a>
-      </Button>
-      <Button colorScheme="whiteAlpha" className="online__button">
-        <a
-          href="https://www.freecodecamp.org/sophyphreak"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FontAwesomeIcon icon={faFreeCodeCamp} color="black" size="2x" />
-        </a>
-      </Button>
+  <section id="online" className="border-b border-hairline">
+    <div className="container py-5">
+      <ul className="flex flex-wrap items-center gap-x-8 gap-y-3">
+        {links.map(link => (
+          <li key={link.href} className="flex items-baseline gap-2">
+            <span className="mono text-[0.66rem] uppercase tracking-[0.18em] text-halftone">
+              {link.label}
+            </span>
+            <a
+              href={link.href}
+              target="_blank"
+              rel="noreferrer"
+              className="mono text-[0.82rem] text-bone underline decoration-bone/25 underline-offset-4 transition-colors hover:text-caution hover:decoration-caution"
+            >
+              {link.handle}
+            </a>
+          </li>
+        ))}
+      </ul>
     </div>
   </section>
 );

@@ -1,159 +1,57 @@
 import type { NextPage } from 'next';
-import {
-  Box,
-  Heading,
-  SimpleGrid,
-  Tag,
-  Wrap,
-  WrapItem,
-} from '@chakra-ui/react';
+import { coreSkills } from './portfolioContent';
 
-type Category = { name: string; items: string[] };
+const Technologies: NextPage = () => (
+  <section id="skills" className="section">
+    <div className="flex items-baseline gap-3">
+      <span className="num">§3.0 · Skills</span>
+      <span className="rule h-px flex-1" />
+      <span className="eyebrow">{coreSkills.length} groups</span>
+    </div>
 
-const categories: Category[] = [
-  {
-    name: 'Languages',
-    items: [
-      'JavaScript',
-      'TypeScript',
-      'Python',
-      'Go',
-      'Java',
-      'SQL',
-      'HTML5',
-      'CSS3',
-    ],
-  },
-  {
-    name: 'Frontend Libraries',
-    items: [
-      'React',
-      'Redux',
-      'Redux Thunk',
-      'Redux Saga',
-      'React Router',
-      'React Hook Form',
-      'Formik',
-    ],
-  },
-  {
-    name: 'Frameworks',
-    items: ['Gatsby', 'Next.js', 'Astro', 'Docz', 'Storybook'],
-  },
-  {
-    name: 'UI / Styling',
-    items: [
-      'Material-UI',
-      'Chakra UI',
-      'Bootstrap',
-      'Reactstrap',
-      'Semantic UI React',
-      'Emotion',
-      'Styled-components',
-      'Tailwind CSS',
-      'D3',
-      'React Data Grid',
-      'Sass',
-      'SCSS',
-      'PostCSS',
-    ],
-  },
-  {
-    name: 'Testing',
-    items: [
-      'Jest',
-      'React Testing Library',
-      'Mock Service Worker',
-      'Cypress',
-      'ts-jest',
-      'Babel Jest',
-      'Playwright',
-      'Puppeteer',
-    ],
-  },
-  {
-    name: 'Backend / APIs',
-    items: [
-      'Node.js',
-      'Express',
-      'Socket.IO',
-      'Passport',
-      'FastAPI',
-      'Flask',
-      'Flask-RESTful',
-      'Django',
-      'Django REST Framework',
-    ],
-  },
-  {
-    name: 'Data',
-    items: ['MongoDB', 'Mongoose', 'PyMongo', 'Prisma', 'Firebase'],
-  },
-  { name: 'HTTP / Networking', items: ['Axios', 'node-fetch'] },
-  {
-    name: 'Tooling',
-    items: [
-      'Webpack',
-      'Babel',
-      'ESLint',
-      'Prettier',
-      'Stylelint',
-      'Husky',
-      'lint-staged',
-      'TypeScript config',
-      'Go modules',
-      'Gradle',
-      'npm',
-      'Yarn',
-      'pnpm',
-    ],
-  },
-  {
-    name: 'CI / DevOps',
-    items: ['GitHub Actions', 'Docker', 'Netlify', 'Vercel', 'Heroku'],
-  },
-  { name: 'AI', items: ['Cursor', 'Claude Code', 'GPT-5'] },
-  { name: 'Process', items: ['Agile', 'SAFe', 'Scrum'] },
-  { name: 'Versioning', items: ['git', 'Github'] },
-  { name: 'Other', items: ['PDF.js'] },
-];
-
-const tagColorScheme = 'teal';
-
-const Technologies: NextPage = () => {
-  return (
-    <section className="tech">
-      <div className="tech-container">
-        <Box w="100%">
-          <SimpleGrid columns={3} spacing={6}>
-            {categories.map(category => (
-              <Box
-                key={category.name}
-                borderWidth="1px"
-                borderRadius="md"
-                p={4}
-                boxShadow="sm"
-                bg="white"
-              >
-                <Heading as="h3" size="md" mb={3}>
-                  {category.name}
-                </Heading>
-                <Wrap shouldWrapChildren>
-                  {category.items.map(tech => (
-                    <WrapItem key={tech}>
-                      <Tag size="md" colorScheme={tagColorScheme}>
-                        {tech}
-                      </Tag>
-                    </WrapItem>
-                  ))}
-                </Wrap>
-              </Box>
-            ))}
-          </SimpleGrid>
-        </Box>
+    <div className="mt-10 grid gap-10 lg:grid-cols-[1.4fr_0.9fr] lg:gap-16">
+      <div className="max-w-[60ch]">
+        <h2 className="display-2">Core technologies.</h2>
+        <p className="lede mt-6">
+          The tools I&apos;d expect to use on a modern full-stack team, in
+          rough order of how often I reach for them.
+        </p>
       </div>
-    </section>
-  );
-};
+      <p className="spec lg:pt-3">
+        Comma-separated, no logos, no proficiency bars. If it&apos;s on this list,
+        I&apos;ve shipped or tested production code with it.
+      </p>
+    </div>
+
+    <dl className="mt-12 grid gap-0">
+      {coreSkills.map((group, i) => (
+        <div
+          key={group.name}
+          className="grid gap-4 border-t border-hairline py-6 sm:grid-cols-[10rem_1fr] sm:gap-10 sm:py-7"
+        >
+          <dt>
+            <p className="num">N&deg; {String(i + 1).padStart(2, '0')}</p>
+            <p
+              className="mt-2 font-serif text-[1.4rem] leading-tight"
+              style={{ fontVariationSettings: "'opsz' 36, 'wght' 500" }}
+            >
+              {group.name}
+            </p>
+          </dt>
+          <dd className="spec self-center">
+            {group.items.map((item, idx) => (
+              <span key={item}>
+                <span className="text-bone">{item}</span>
+                {idx < group.items.length - 1 && (
+                  <span className="text-halftone"> &middot; </span>
+                )}
+              </span>
+            ))}
+          </dd>
+        </div>
+      ))}
+    </dl>
+  </section>
+);
 
 export default Technologies;

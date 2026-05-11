@@ -1,48 +1,28 @@
 import React from 'react';
-import ReactApps from './ReactApps/ReactApps';
-import FullStackApps from './FullStackApps/FullStackApps';
-import FlaskApis from './FlaskApis/FlaskApis';
-import NodeApis from './NodeApis/NodeApis';
-import Go from './Go/Go';
-import { Tabs, TabList, Tab, TabPanels, TabPanel } from '@chakra-ui/react';
-import Techonologies from '../Technologies';
 
-const Projects = () => {
-  return (
-    <div>
-      <Tabs align="center">
-        <TabList>
-          <Tab>Technologies</Tab>
-          <Tab>Frontend React</Tab>
-          <Tab>Full Stack React</Tab>
-          <Tab>Python</Tab>
-          <Tab>Node</Tab>
-          <Tab>Go</Tab>
-        </TabList>
+const ARCHIVE_HREF = 'https://github.com/sophyphreak';
 
-        <TabPanels>
-          <TabPanel>
-            <Techonologies />
-          </TabPanel>
-          <TabPanel>
-            <ReactApps />
-          </TabPanel>
-          <TabPanel>
-            <FullStackApps />
-          </TabPanel>
-          <TabPanel>
-            <FlaskApis />
-          </TabPanel>
-          <TabPanel>
-            <NodeApis />
-          </TabPanel>
-          <TabPanel>
-            <Go />
-          </TabPanel>
-        </TabPanels>
-      </Tabs>
+const Projects = () => (
+  <section id="archive" className="border-t border-hairline pt-10 pb-16">
+    <p className="num">Appendix A</p>
+    <div className="mt-3 grid gap-3 sm:grid-cols-[1fr_auto] sm:items-end sm:gap-10">
+      <p className="font-serif text-[1rem] leading-relaxed text-bone/75">
+        Earlier practice work &mdash; roughly 50&#8239;+ freeCodeCamp and coursework
+        exercises (React, Node, Flask, Go, full-stack apps) shipped between
+        2018 and 2019. Kept for archeological completeness; the featured projects
+        above are the current representation of my engineering profile.
+      </p>
+      <a
+        href={ARCHIVE_HREF}
+        target="_blank"
+        rel="noreferrer"
+        className="ulink justify-self-start sm:justify-self-end"
+      >
+        See on GitHub
+        <span className="ulink__arrow" aria-hidden="true">&rarr;</span>
+      </a>
     </div>
-  );
-};
+  </section>
+);
 
 export default Projects;
