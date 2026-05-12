@@ -99,7 +99,16 @@
 }
 
 @layer components {
-  .section { @apply py-20 sm:py-24; }
+  .section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  @media (min-width: 640px) {
+    .section {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+  }
 
   /* mono utilities */
   .mono {
